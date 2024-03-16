@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "81235177deef8a6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ab71bfc247930c5",
+        "type": "tabs",
+        "dimension": 57.72921108742004,
+        "children": [
+          {
+            "id": "36f9b7b4b8104bad",
+            "type": "leaf",
+            "state": {
+              "type": "bm-book-view",
+              "state": {
+                "bid": "BAvMXOSKbrXnYZww",
+                "viewerState": {
+                  "page": 210
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "696035451682dbb7",
+        "type": "tabs",
+        "dimension": 42.27078891257996,
+        "children": [
+          {
+            "id": "761424cda4cab8e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9963ad17c4c11d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4d057614322497b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "759a92327006517d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "312abe8b1630e6d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "图的基本",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df1728a6ccdec7cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "eaa3a57e661c169e",
+            "type": "leaf",
+            "state": {
+              "type": "bm-explorer-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "33735fa62746e202",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "afe68af1243a1c11",
+    "type": "split",
+    "children": [
+      {
+        "id": "2119a35b7321e090",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09faa1a9062954f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5c4009e5f91d8aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f51e00efa03c1df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3b2f4bf07d5fa25f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3-Resources/重述笔记/图的基本操作.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-bookmaster-plugin:Book Explorer": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-memos:Thino": false
+    }
+  },
+  "active": "761424cda4cab8e0",
+  "lastOpenFiles": [
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-be564a96-1d11-cd62-a7ab-ed9a070f774e.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-7b40ec7c-07b9-1df0-c431-eac4d0744c8e.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-c225c801-1cb6-87e3-cde5-25729c3b926c.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-e66eb4c7-7cb5-6fdb-1fa7-193690cd1532.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-a3df6908-130c-fc97-353c-e030f2dfbc0b.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-c5627c3e-946d-aa7f-83c7-195f79e01272.png",
+    "3-Resources/excalidraw/Drawing 2024-03-15 09.12.27.excalidraw.md",
+    "3-Resources/重述笔记/图的基本操作.md",
+    "3-Resources/重述笔记/向量的坐标以及在数轴上的投影.md",
+    "1-Projects/图.md",
+    "3-Resources/excalidraw",
+    "3-Resources/重述笔记/图的基本内容.md",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-63eef14b-a1f2-7e11-b857-69fcd4a1256e.png",
+    "1-Projects/堆.md",
+    "1-Projects/向量.md",
+    "Spaces/Home",
+    "Spaces",
+    "1-Projects/树.md",
+    "1-Projects/笔记整理.md",
+    "Project/Project.md",
+    "1/1.md",
+    "1",
+    "Project",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-f744869a-c62a-86f1-81ec-d4c8aedc6cbc.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-00c8b55e-1a86-4927-5957-112a56852630.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-56421407-7d07-0c4e-bf4a-525772d60422.png",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-6fb702eb-ef17-6ade-c0ea-615246ea16f7.png",
+    "3-Resources/重述笔记/堆的小结.md",
+    "3-Resources/重述笔记/堆的基本操作.md",
+    "3-Resources/重述笔记/堆的结构.md",
+    "3-Resources/重述笔记/树的小结与重点提问.md",
+    "3-Resources/Anki/AVL_Anki.md",
+    "3-Resources/重述笔记/AVL树.md",
+    "3-Resources/Anki/树anki.md",
+    "0-assets/bookmaster/book-data/00/ApFYoYPagzbKkvGg.md",
+    "1-Projects/未命名.md",
+    "3-Resources/重述笔记/二叉搜索树的各类操作.md",
+    "1-Projects/AVL树.md",
+    "2-Area/AVL树.md",
+    "4-Archives/Project of Archives/树的Anki整理.md",
+    "4-Archives/Project of Archives",
+    "2-Area/Obsidian操作.md",
+    "3-Resources/Anki",
+    "0-assets/bookmaster/book-annotations/00/hzIxouGFlVmztVmO.xml",
+    "0-assets/memos",
+    "0-assets/kanban"
+  ]
+}

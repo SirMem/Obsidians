@@ -1,0 +1,42 @@
+{
+  "quickadd:choice:4a9a4328-f05b-4933-b012-ade94525c621": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "quickadd:choice:3f1ee2b4-be23-4a63-b164-9fd2d1c80685": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "quickadd:choice:0b33cda7-8a21-4c11-9cc8-4789b082c739": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "quickadd:choice:05c8224e-1bf2-42ec-b6cf-f497ded14dfe": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ]
+}

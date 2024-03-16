@@ -1,0 +1,288 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Image Occlusion Enhanced": "",
+      "Obsidian-basic": "^#{1,}(.+)\\n*([\\s\\S]*?)\\nEND$",
+      "Obsidian-basic-reversed": "",
+      "Obsidian-basic-reversed-source": "",
+      "Obsidian-basic-reversed-source-code": "",
+      "Obsidian-basic-source": "",
+      "Obsidian-basic-source-code": "",
+      "Obsidian-cloze": "",
+      "Obsidian-cloze-source": "",
+      "Obsidian-cloze-source-code": "",
+      "Obsidian-spaced": "",
+      "Obsidian-spaced-source": "",
+      "Obsidian-spaced-source-code": "",
+      "填空题": "",
+      "问答题": "",
+      "问答题（同时生成翻转的卡片<可选>）": "",
+      "问答题（同时生成翻转的卡片）": "",
+      "问答题（输入答案）": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "Image Occlusion Enhanced": "ID (hidden)",
+      "Obsidian-basic": "Front",
+      "Obsidian-basic-reversed": "Front",
+      "Obsidian-basic-reversed-source": "Front",
+      "Obsidian-basic-reversed-source-code": "Front",
+      "Obsidian-basic-source": "Front",
+      "Obsidian-basic-source-code": "Front",
+      "Obsidian-cloze": "Text",
+      "Obsidian-cloze-source": "Text",
+      "Obsidian-cloze-source-code": "Text",
+      "Obsidian-spaced": "Prompt",
+      "Obsidian-spaced-source": "Prompt",
+      "Obsidian-spaced-source-code": "Prompt",
+      "填空题": "文字",
+      "问答题": "正面",
+      "问答题（同时生成翻转的卡片<可选>）": "正面",
+      "问答题（同时生成翻转的卡片）": "正面",
+      "问答题（输入答案）": "正面"
+    },
+    "CONTEXT_FIELDS": {
+      "Obsidian-basic-reversed": "Front",
+      "Obsidian-basic": "Back"
+    },
+    "FOLDER_DECKS": {
+      "0-assets": "",
+      "1-内容摘录": "",
+      "3-重述笔记": "",
+      "2-概念笔记": "",
+      "4-专题笔记": "",
+      "0-assets/photos": "",
+      "0-assets/bookmaster": "",
+      "0-assets/bookmaster/book-data": "",
+      "0-assets/bookmaster/book-annotations": "",
+      "0-assets/bookmaster/book-images": "",
+      "0-assets/bookmaster/book-data/00": "",
+      "0-assets/bookmaster/book-annotations/00": "",
+      "0-assets/bookmaster/book-images/00": "",
+      "1-Projects": "",
+      "2-Area": "",
+      "3-Resources": "",
+      "4-Archives": "",
+      "0-assets/memos": "",
+      "0-assets/templates": "",
+      "0-assets/kanban": "",
+      "3-Resources/摘录笔记": "",
+      "3-Resources/概念笔记": "",
+      "3-Resources/重述笔记": "",
+      "3-Resources/Anki": ""
+    },
+    "FOLDER_TAGS": {
+      "0-assets": "",
+      "1-内容摘录": "",
+      "3-重述笔记": "",
+      "2-概念笔记": "",
+      "4-专题笔记": "",
+      "0-assets/photos": "",
+      "0-assets/bookmaster": "",
+      "0-assets/bookmaster/book-data": "",
+      "0-assets/bookmaster/book-annotations": "",
+      "0-assets/bookmaster/book-images": "",
+      "0-assets/bookmaster/book-data/00": "",
+      "0-assets/bookmaster/book-annotations/00": "",
+      "0-assets/bookmaster/book-images/00": "",
+      "1-Projects": "",
+      "2-Area": "",
+      "3-Resources": "",
+      "4-Archives": "",
+      "0-assets/memos": "",
+      "0-assets/templates": "",
+      "0-assets/kanban": "",
+      "3-Resources/摘录笔记": "",
+      "3-Resources/概念笔记": "",
+      "3-Resources/重述笔记": "",
+      "3-Resources/Anki": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "3-Resources/Anki",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": true,
+      "Add Context": false,
+      "CurlyCloze": true,
+      "CurlyCloze - Highlights to Clozes": true,
+      "ID Comments": true,
+      "Add Obsidian Tags": true
+    },
+    "IGNORED_FILE_GLOBS": []
+  },
+  "Added Media": [
+    "BAvMXOSKbrXnYZww-7a00f399-07c6-540f-4f19-bcaba335cc18.png",
+    "BAvMXOSKbrXnYZww-c5d4da1f-cade-ab38-0038-771942e5a487.png",
+    "BAvMXOSKbrXnYZww-1ff89fdc-9290-e91b-8357-d31a53737df7.png",
+    "BAvMXOSKbrXnYZww-7cf487e2-2a64-4e41-85a8-3f8897fec82c.png",
+    "BAvMXOSKbrXnYZww-b20ef75e-c8df-1696-94ac-a7788b4bc3cd.png",
+    "BAvMXOSKbrXnYZww-c7e9bc57-0da6-7d7a-eaa9-6b9b12513608.png",
+    "Pasted image 20240311212735.png",
+    "Pasted image 20240311213112.png",
+    "BAvMXOSKbrXnYZww-49fcb223-1732-74e7-95a9-0ec028176e29.png",
+    "BAvMXOSKbrXnYZww-434ae2f2-aa63-8f47-fee8-173bb35dbfb9.png",
+    "BAvMXOSKbrXnYZww-24320953-abb4-5f70-66d2-a51871a90f6a.png",
+    "BAvMXOSKbrXnYZww-f25b5c9c-ac2f-9ffa-06ee-27228054fe00.png",
+    "BAvMXOSKbrXnYZww-1d3f38ae-2031-cb07-f710-e90e21e269da.png",
+    "BAvMXOSKbrXnYZww-8e84d077-2c2c-b668-c235-219e1d302c4f.png",
+    "BAvMXOSKbrXnYZww-3ad3bd36-8ba6-31cf-1cf1-0e6782311a5e.png"
+  ],
+  "File Hashes": {
+    "2-概念笔记/obsidian to anki note.md": "1f64b10d7d6f03e9a08b7e95be7b6e09",
+    "2-概念笔记/计算机网络基本名词.md": "db8cf970b8032ddd9196e34065fe31d7",
+    "3-重述笔记/进程记录.md": "320d65c3b962bb69ca90d301310503bc",
+    "3-重述笔记/队列.md": "b91e5a1a1a5ae1d9970319bbcdb07323",
+    "3-重述笔记/类的类型的解释.md": "e165ccf98f6e10f31934a170ee2654be",
+    "3-重述笔记/树.md": "8c60e7b7f900330de9644a70a77e50b9",
+    "3-重述笔记/栈.md": "d2da38882e376e8c14452a05ad551d49",
+    "3-重述笔记/如何完成笔记.md": "8a3bc97906ce1ef0d6aba7045867862b",
+    "3-重述笔记/对工作流程的思考.md": "c295e5dc140726ea2fc902c5e985e31f",
+    "3-重述笔记/如何复习笔记.md": "ab2db901bdde4eff7d53822c2aed2891",
+    "3-重述笔记/图.md": "0b9469323f694a53b3081ce83e858ba1",
+    "3-重述笔记/哈希表.md": "bfbaeb65cdf8ef0734dcb05025480185",
+    "3-重述笔记/双向队列.md": "692e3d6c564475fcaee94925eba04e82",
+    "3-重述笔记/VPN搭建知识.md": "39a810d2001e699df007060a8758b331",
+    "3-重述笔记/博客搭建.md": "02229df238df44888e5e78e67465c0e0",
+    "3-重述笔记/STL体系结构基础介绍.md": "8b74013b1d2d2225e5582a98a639b5c6",
+    "3-重述笔记/Liunx的基本操作.md": "9205b93f797b2af5de1d596762358e13",
+    "1-内容摘录/Linux入门.md": "811c8a341960a76ecdc5bcdb92183913",
+    "0-assets/bookmaster/recent.md": "19a5116518a6d43daae36a56d0a8cda7",
+    "0-assets/bookmaster/book-data/00/xKqORwRGGAaDuCYv.md": "fbc572d5f90e53644469bea54c27b4f6",
+    "0-assets/bookmaster/book-data/00/BAvMXOSKbrXnYZww.md": "3fb321f1fdced5505edc43f41a9e6568",
+    "3-Resources/重述笔记/树anki.md": "28fd32ae81b0a9df7d8154cd1af7dcf8",
+    "3-Resources/重述笔记/向量的坐标以及在数轴上的投影.md": "7e86081c85da14e68eb8ae465907647b",
+    "3-Resources/重述笔记/队列.md": "2287c10d60d9bcb95f7c19ecca47b9e3",
+    "3-Resources/重述笔记/进程记录.md": "320d65c3b962bb69ca90d301310503bc",
+    "3-Resources/重述笔记/类的类型的解释.md": "e165ccf98f6e10f31934a170ee2654be",
+    "3-Resources/重述笔记/栈.md": "d2da38882e376e8c14452a05ad551d49",
+    "3-Resources/重述笔记/对工作流程的思考.md": "88917f96c42d87fa94b91acf52c94136",
+    "3-Resources/重述笔记/树.md": "8c60e7b7f900330de9644a70a77e50b9",
+    "3-Resources/重述笔记/图.md": "0b9469323f694a53b3081ce83e858ba1",
+    "3-Resources/重述笔记/如何完成笔记.md": "8a3bc97906ce1ef0d6aba7045867862b",
+    "3-Resources/重述笔记/双向队列.md": "692e3d6c564475fcaee94925eba04e82",
+    "3-Resources/重述笔记/如何复习笔记.md": "ab2db901bdde4eff7d53822c2aed2891",
+    "3-Resources/重述笔记/博客搭建.md": "02229df238df44888e5e78e67465c0e0",
+    "3-Resources/重述笔记/哈希表.md": "bfbaeb65cdf8ef0734dcb05025480185",
+    "3-Resources/重述笔记/STL体系结构基础介绍.md": "722c3d3fda2bfb73f3768cf9db549f18",
+    "3-Resources/重述笔记/Liunx的基本操作.md": "9205b93f797b2af5de1d596762358e13",
+    "3-Resources/重述笔记/二叉搜索树的各类操作.md": "ee1d9ca98c901c7f3428745617801003",
+    "3-Resources/重述笔记/VPN搭建知识.md": "39a810d2001e699df007060a8758b331",
+    "3-Resources/概念笔记/计算机网络基本名词.md": "db8cf970b8032ddd9196e34065fe31d7",
+    "3-Resources/概念笔记/obsidian to anki note.md": "1f64b10d7d6f03e9a08b7e95be7b6e09",
+    "3-Resources/摘录笔记/Linux入门.md": "811c8a341960a76ecdc5bcdb92183913",
+    "2-Area/高等数学(下).md": "6dc0c4ae5c77d5c6669df283bca649fc",
+    "2-Area/数据结构.md": "52ab8b3595bc5f97c04a8d834cab2219",
+    "2-Area/Obsidian操作.md": "05f341491043e1b71f79d33f8cbaa2b1",
+    "2-Area/Anki笔记整理.md": "05f341491043e1b71f79d33f8cbaa2b1",
+    "1-Projects/树的Anki整理.md": "abe0586b1f369ee7ad9a479d0cc34e45",
+    "1-Projects/向量.md": "c9d108be12aae5188cbf35bac25d0387",
+    "1-Projects/树.md": "554abae99020d3b957b0e8f7ab8c0532",
+    "0-assets/bookmaster/book-data/00/hzIxouGFlVmztVmO.md": "f81158446cb06576d421351230b23536",
+    "0-assets/bookmaster/book-data/00/dUvqzyhsFZkvFDZe.md": "98e4a14446c51fec454e09ce53ca3ecd",
+    "0-assets/kanban/HOME.md": "3ad9164d0e9e04e3af26d2b9ed827d17",
+    "0-assets/templates/Project template.md": "c2fdf45559ebbdeace7e4d222dec9985",
+    "0-assets/templates/Area template.md": "646ace652eb4560abdd2b69cffa47346",
+    "0-assets/memos/2024-03-11.md": "fffe3715a2a8b0dc6e50f2bb8608b33c",
+    "3-Resources/Anki/树anki.md": "7d2666c82b4be1ee2d0bfaeb4e60fbd1",
+    "3-Resources/Anki/AVL_Anki.md": "b0998c84c9024efdfb70e097d85a4d0c"
+  },
+  "fields_dict": {
+    "Image Occlusion Enhanced": [
+      "ID (hidden)",
+      "Header",
+      "Image",
+      "Question Mask",
+      "Footer",
+      "Remarks",
+      "Sources",
+      "Extra 1",
+      "Extra 2",
+      "Answer Mask",
+      "Original Mask"
+    ],
+    "Obsidian-basic": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-basic-reversed": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-basic-reversed-source": [
+      "Front",
+      "Back",
+      "Source"
+    ],
+    "Obsidian-basic-reversed-source-code": [
+      "Front",
+      "Back",
+      "Source"
+    ],
+    "Obsidian-basic-source": [
+      "Front",
+      "Back",
+      "Source"
+    ],
+    "Obsidian-basic-source-code": [
+      "Front",
+      "Back",
+      "Source"
+    ],
+    "Obsidian-cloze": [
+      "Text",
+      "Extra"
+    ],
+    "Obsidian-cloze-source": [
+      "Text",
+      "Extra",
+      "Source"
+    ],
+    "Obsidian-cloze-source-code": [
+      "Text",
+      "Extra",
+      "Source"
+    ],
+    "Obsidian-spaced": [
+      "Prompt"
+    ],
+    "Obsidian-spaced-source": [
+      "Prompt",
+      "Source"
+    ],
+    "Obsidian-spaced-source-code": [
+      "Prompt",
+      "Source"
+    ],
+    "填空题": [
+      "文字",
+      "背面额外"
+    ],
+    "问答题": [
+      "正面",
+      "背面"
+    ],
+    "问答题（同时生成翻转的卡片<可选>）": [
+      "正面",
+      "背面",
+      "添加翻转的卡片"
+    ],
+    "问答题（同时生成翻转的卡片）": [
+      "正面",
+      "背面"
+    ],
+    "问答题（输入答案）": [
+      "正面",
+      "背面"
+    ]
+  }
+}
