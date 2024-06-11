@@ -1,0 +1,967 @@
+WEBVTT
+Kind: subtitles
+ID: a.en
+Source: https&#58;//www.youtube.com/watch?v&#61;Ptpd6uFe2_s
+Title: Qt 6 - Episode 16 - Determining the Operating System
+Language: en
+Label: 英语 (自动生成)
+
+0
+00:00:04.240 --> 00:00:07.279
+hey everybody it's brian and in this
+
+1
+00:00:05.680 --> 00:00:09.760
+video we're going to talk about
+
+2
+00:00:07.279 --> 00:00:10.960
+determining the operating system both at
+
+3
+00:00:09.760 --> 00:00:13.920
+compile time
+
+4
+00:00:10.960 --> 00:00:15.599
+and at run time they don't really talk
+
+5
+00:00:13.920 --> 00:00:17.440
+about this very much in depth in most
+
+6
+00:00:15.599 --> 00:00:17.920
+classes and i'm always mystified by this
+
+7
+00:00:17.440 --> 00:00:20.320
+because
+
+8
+00:00:17.920 --> 00:00:21.119
+cute runs anywhere and there are times
+
+9
+00:00:20.320 --> 00:00:22.560
+where well
+
+10
+00:00:21.119 --> 00:00:24.160
+you'll need to run different code
+
+11
+00:00:22.560 --> 00:00:27.759
+depending on what operating system
+
+12
+00:00:24.160 --> 00:00:27.760
+you're on so let's dive in and take a
+
+13
+00:00:28.840 --> 00:00:32.320
+look all right our first stop here is
+
+14
+00:00:31.519 --> 00:00:34.480
+going to be
+
+15
+00:00:32.320 --> 00:00:36.480
+the cute global or the global
+
+16
+00:00:34.480 --> 00:00:38.800
+declarations and this gets
+
+17
+00:00:36.480 --> 00:00:40.078
+really scary when you look at it here so
+
+18
+00:00:38.800 --> 00:00:42.320
+what's really happening
+
+19
+00:00:40.079 --> 00:00:43.760
+is this is the global this is everything
+
+20
+00:00:42.320 --> 00:00:45.920
+that's available to every q
+
+21
+00:00:43.760 --> 00:00:47.440
+application and if you start scrolling
+
+22
+00:00:45.920 --> 00:00:48.960
+down not a lot of this really makes a
+
+23
+00:00:47.440 --> 00:00:50.239
+lot of sense when you look at it
+
+24
+00:00:48.960 --> 00:00:52.640
+but we're going to keep going down and
+
+25
+00:00:50.239 --> 00:00:54.399
+down until you see cue underscore os
+
+26
+00:00:52.640 --> 00:00:56.000
+and then ah you start seeing familiar
+
+27
+00:00:54.399 --> 00:00:59.520
+names android
+
+28
+00:00:56.000 --> 00:01:02.320
+bsd4 ios linux that's right this is all
+
+29
+00:00:59.520 --> 00:01:04.080
+built in for example i'm on linux so if
+
+30
+00:01:02.320 --> 00:01:04.720
+i click this it says it's defined on
+
+31
+00:01:04.080 --> 00:01:06.240
+linux
+
+32
+00:01:04.720 --> 00:01:07.840
+that's right these are preprocessor
+
+33
+00:01:06.240 --> 00:01:10.798
+directives you get
+
+34
+00:01:07.840 --> 00:01:11.439
+at compile time so for example if i say
+
+35
+00:01:10.799 --> 00:01:14.479
+qos
+
+36
+00:01:11.439 --> 00:01:15.520
+mac you'll see it's deprecated and you
+
+37
+00:01:14.479 --> 00:01:17.280
+should not use this
+
+38
+00:01:15.520 --> 00:01:18.960
+this is where it gets a little confusing
+
+39
+00:01:17.280 --> 00:01:21.840
+there's a mac and a mac os
+
+40
+00:01:18.960 --> 00:01:23.520
+which is defined on mac os but mac is
+
+41
+00:01:21.840 --> 00:01:24.640
+something you shouldn't use
+
+42
+00:01:23.520 --> 00:01:26.000
+short version you're going to have to
+
+43
+00:01:24.640 --> 00:01:28.159
+dig through the documentation to figure
+
+44
+00:01:26.000 --> 00:01:29.200
+out your specific use case but anything
+
+45
+00:01:28.159 --> 00:01:31.920
+that starts with q
+
+46
+00:01:29.200 --> 00:01:33.280
+underscore os is available for you to
+
+47
+00:01:31.920 --> 00:01:36.640
+try to use
+
+48
+00:01:33.280 --> 00:01:40.400
+now i say try and here's why
+
+49
+00:01:36.640 --> 00:01:42.399
+for example if you're on mac os win64 is
+
+50
+00:01:40.400 --> 00:01:44.640
+not going to be defined
+
+51
+00:01:42.399 --> 00:01:46.320
+because it's only defined on 64-bit
+
+52
+00:01:44.640 --> 00:01:48.320
+versions of windows
+
+53
+00:01:46.320 --> 00:01:50.158
+you kind of get what's going on here so
+
+54
+00:01:48.320 --> 00:01:51.520
+let's take a look at some code
+
+55
+00:01:50.159 --> 00:01:53.520
+we've got our little compile time
+
+56
+00:01:51.520 --> 00:01:54.720
+function here and i'm going to do one
+
+57
+00:01:53.520 --> 00:01:56.240
+typing it and then the rest i'm just
+
+58
+00:01:54.720 --> 00:01:57.520
+gonna probably copy and paste just to
+
+59
+00:01:56.240 --> 00:02:01.039
+save time
+
+60
+00:01:57.520 --> 00:02:02.240
+so we're gonna say if def which is short
+
+61
+00:02:01.040 --> 00:02:05.520
+for if defined
+
+62
+00:02:02.240 --> 00:02:08.959
+and then we want q underscore os
+
+63
+00:02:05.520 --> 00:02:10.160
+and you see right there is q underscore
+
+64
+00:02:08.959 --> 00:02:14.000
+os linux because
+
+65
+00:02:10.160 --> 00:02:15.120
+i'm on linux but unix is also declared
+
+66
+00:02:14.000 --> 00:02:18.239
+that's why you gotta be a little bit
+
+67
+00:02:15.120 --> 00:02:18.239
+careful about what you're doing
+
+68
+00:02:19.200 --> 00:02:22.799
+and then we're gonna go ahead and do an
+
+69
+00:02:21.680 --> 00:02:25.040
+and f
+
+70
+00:02:22.800 --> 00:02:25.920
+and from there it becomes ridiculously
+
+71
+00:02:25.040 --> 00:02:29.120
+simple i'm going to say
+
+72
+00:02:25.920 --> 00:02:29.119
+q info
+
+73
+00:02:32.959 --> 00:02:37.840
+hello from linux it's
+
+74
+00:02:36.160 --> 00:02:40.079
+really that simple and you can just take
+
+75
+00:02:37.840 --> 00:02:40.080
+this
+
+76
+00:02:41.120 --> 00:02:44.239
+and copy and paste it and let's just
+
+77
+00:02:43.599 --> 00:02:46.000
+jump back
+
+78
+00:02:44.239 --> 00:02:47.840
+in and see what we're looking for here
+
+79
+00:02:46.000 --> 00:02:51.360
+so all right so
+
+80
+00:02:47.840 --> 00:02:54.000
+qos windows which is a synonym for qos
+
+81
+00:02:51.360 --> 00:02:56.400
+win to find all supported versions of
+
+82
+00:02:54.000 --> 00:02:57.120
+windows and you can also get a 32 or 64
+
+83
+00:02:56.400 --> 00:02:59.120
+bit
+
+84
+00:02:57.120 --> 00:03:00.239
+so let's just grab this i'm going to do
+
+85
+00:02:59.120 --> 00:03:04.159
+the old copy and paste
+
+86
+00:03:00.239 --> 00:03:07.200
+maybe if it lets me
+
+87
+00:03:04.159 --> 00:03:08.720
+lit back to our virtual machine
+
+88
+00:03:07.200 --> 00:03:11.679
+and put it in there notice how it's
+
+89
+00:03:08.720 --> 00:03:15.359
+automatically grayed out
+
+90
+00:03:11.680 --> 00:03:17.280
+because it's not defined we're saying if
+
+91
+00:03:15.360 --> 00:03:18.879
+defined and this is not defined because
+
+92
+00:03:17.280 --> 00:03:20.720
+i'm on a linux machine
+
+93
+00:03:18.879 --> 00:03:22.399
+if i was on windows you'd see the polar
+
+94
+00:03:20.720 --> 00:03:24.560
+opposite where this would be highlighted
+
+95
+00:03:22.400 --> 00:03:26.879
+and this would be grayed out
+
+96
+00:03:24.560 --> 00:03:28.560
+you can actually take this to some
+
+97
+00:03:26.879 --> 00:03:29.599
+extreme if you really wanted to and i'm
+
+98
+00:03:28.560 --> 00:03:33.440
+just going to
+
+99
+00:03:29.599 --> 00:03:34.798
+do the magic of copy and paste here
+
+100
+00:03:33.440 --> 00:03:36.319
+maybe it's time for a new mouse this
+
+101
+00:03:34.799 --> 00:03:38.080
+thing doesn't want to agree with me here
+
+102
+00:03:36.319 --> 00:03:40.000
+there we go
+
+103
+00:03:38.080 --> 00:03:42.239
+so i've kind of done something here that
+
+104
+00:03:40.000 --> 00:03:43.280
+is well a monstrosity but you'll see
+
+105
+00:03:42.239 --> 00:03:46.400
+this out in the real world
+
+106
+00:03:43.280 --> 00:03:48.319
+you have if defined mac os this is a mac
+
+107
+00:03:46.400 --> 00:03:50.560
+linux windows and you can see because
+
+108
+00:03:48.319 --> 00:03:53.040
+i'm on linux the other parts are grayed
+
+109
+00:03:50.560 --> 00:03:54.959
+out they just simply won't run
+
+110
+00:03:53.040 --> 00:03:57.040
+we can save and run this and see exactly
+
+111
+00:03:54.959 --> 00:03:58.159
+what happens because i'm on linux it's
+
+112
+00:03:57.040 --> 00:04:01.599
+going to simply say
+
+113
+00:03:58.159 --> 00:04:04.000
+this is linux now if you were to take
+
+114
+00:04:01.599 --> 00:04:05.200
+that same code and run it on say a mac
+
+115
+00:04:04.000 --> 00:04:06.799
+it'll say this is mac
+
+116
+00:04:05.200 --> 00:04:08.238
+if you take that same code and run it on
+
+117
+00:04:06.799 --> 00:04:09.840
+windows it'll say this is windows but
+
+118
+00:04:08.239 --> 00:04:15.840
+then it'll tell you whether it's 32 or
+
+119
+00:04:09.840 --> 00:04:15.840
+64 bit
+
+120
+00:04:16.238 --> 00:04:19.839
+all right sometimes you need a little
+
+121
+00:04:17.918 --> 00:04:21.440
+bit more info and that's where the qsys
+
+122
+00:04:19.839 --> 00:04:23.758
+cifo class comes in
+
+123
+00:04:21.440 --> 00:04:25.280
+the qsincifo class provides information
+
+124
+00:04:23.759 --> 00:04:26.240
+about the system i love that description
+
+125
+00:04:25.280 --> 00:04:27.919
+because this class does
+
+126
+00:04:26.240 --> 00:04:29.440
+exactly what it says it does if we
+
+127
+00:04:27.919 --> 00:04:31.280
+scroll down
+
+128
+00:04:29.440 --> 00:04:32.800
+you can see there are static public
+
+129
+00:04:31.280 --> 00:04:35.039
+members that's right static you don't
+
+130
+00:04:32.800 --> 00:04:36.560
+even have to create an instance of this
+
+131
+00:04:35.040 --> 00:04:38.880
+i will just for demonstration but you
+
+132
+00:04:36.560 --> 00:04:41.360
+don't have to but you can get like the
+
+133
+00:04:38.880 --> 00:04:42.080
+boot unique id the build api cpu
+
+134
+00:04:41.360 --> 00:04:43.840
+architecture
+
+135
+00:04:42.080 --> 00:04:45.919
+current cpu architecture kernel type
+
+136
+00:04:43.840 --> 00:04:47.280
+kernel version host name
+
+137
+00:04:45.919 --> 00:04:48.880
+and i'm kind of flying through these
+
+138
+00:04:47.280 --> 00:04:50.000
+most of these you won't actually ever
+
+139
+00:04:48.880 --> 00:04:51.919
+really need
+
+140
+00:04:50.000 --> 00:04:53.600
+but this is what i love about their
+
+141
+00:04:51.919 --> 00:04:56.320
+documentation if you're ever curious
+
+142
+00:04:53.600 --> 00:04:57.919
+what something is for example build abi
+
+143
+00:04:56.320 --> 00:04:59.599
+it has more information than you'll
+
+144
+00:04:57.919 --> 00:05:01.359
+probably ever need to know unless you're
+
+145
+00:04:59.600 --> 00:05:03.199
+really deep diving into this for some
+
+146
+00:05:01.360 --> 00:05:06.479
+unknown reason
+
+147
+00:05:03.199 --> 00:05:09.520
+so how does this work
+
+148
+00:05:06.479 --> 00:05:10.560
+well let's take a look i'm going to type
+
+149
+00:05:09.520 --> 00:05:12.000
+out a little bit and then i'm just going
+
+150
+00:05:10.560 --> 00:05:12.880
+to copy and paste just to save some time
+
+151
+00:05:12.000 --> 00:05:15.840
+so i'm going to say cue
+
+152
+00:05:12.880 --> 00:05:17.120
+sysinfo again you don't have to make an
+
+153
+00:05:15.840 --> 00:05:19.679
+instance but i'm going to
+
+154
+00:05:17.120 --> 00:05:20.160
+let's call this info and i'm going to
+
+155
+00:05:19.680 --> 00:05:23.680
+say cue
+
+156
+00:05:20.160 --> 00:05:24.080
+info let's go ahead and let's print out
+
+157
+00:05:23.680 --> 00:05:27.360
+the
+
+158
+00:05:24.080 --> 00:05:29.359
+pretty product
+
+159
+00:05:27.360 --> 00:05:30.800
+name which is basically just a human
+
+160
+00:05:29.360 --> 00:05:32.320
+readable version this is something you
+
+161
+00:05:30.800 --> 00:05:34.240
+put in like an about box or something
+
+162
+00:05:32.320 --> 00:05:37.440
+like that
+
+163
+00:05:34.240 --> 00:05:38.639
+and i'm gonna say info dot free product
+
+164
+00:05:37.440 --> 00:05:40.800
+name again
+
+165
+00:05:38.639 --> 00:05:42.160
+you can do this using the static you
+
+166
+00:05:40.800 --> 00:05:44.560
+don't have to make an instance
+
+167
+00:05:42.160 --> 00:05:46.080
+but it just works so one thing you'll
+
+168
+00:05:44.560 --> 00:05:48.160
+notice right off the bat is this is at
+
+169
+00:05:46.080 --> 00:05:52.479
+run time we're not using the
+
+170
+00:05:48.160 --> 00:05:55.680
+preprocessor symbols so let's go ahead
+
+171
+00:05:52.479 --> 00:05:55.680
+and run this and see what it says
+
+172
+00:05:55.919 --> 00:06:00.159
+tada this is linux and the pretty
+
+173
+00:05:57.520 --> 00:06:02.799
+product name is linux mint 20.
+
+174
+00:06:00.160 --> 00:06:05.280
+yes this is pretty awesome it just works
+
+175
+00:06:02.800 --> 00:06:07.600
+you don't have to really do any sort of
+
+176
+00:06:05.280 --> 00:06:08.960
+mysticism or api calls or figure out
+
+177
+00:06:07.600 --> 00:06:11.199
+some black magic
+
+178
+00:06:08.960 --> 00:06:12.880
+incantation at three in the morning so
+
+179
+00:06:11.199 --> 00:06:14.479
+let's just
+
+180
+00:06:12.880 --> 00:06:16.240
+copy and paste this out just to save a
+
+181
+00:06:14.479 --> 00:06:18.400
+smidge of time we're gonna get the
+
+182
+00:06:16.240 --> 00:06:20.400
+pretty product name the product type
+
+183
+00:06:18.400 --> 00:06:22.159
+version machine host name if you ever
+
+184
+00:06:20.400 --> 00:06:23.280
+need that this is a super simple way of
+
+185
+00:06:22.160 --> 00:06:25.840
+getting it
+
+186
+00:06:23.280 --> 00:06:26.400
+machine unique id again if you ever need
+
+187
+00:06:25.840 --> 00:06:29.039
+it it's
+
+188
+00:06:26.400 --> 00:06:31.280
+right there current cpu architecture and
+
+189
+00:06:29.039 --> 00:06:33.199
+the build cpu architecture
+
+190
+00:06:31.280 --> 00:06:34.960
+and then the build api let's go ahead
+
+191
+00:06:33.199 --> 00:06:36.639
+and save run
+
+192
+00:06:34.960 --> 00:06:38.239
+again this is probably way more
+
+193
+00:06:36.639 --> 00:06:39.440
+information than you'll ever need about
+
+194
+00:06:38.240 --> 00:06:41.039
+your system for most
+
+195
+00:06:39.440 --> 00:06:43.199
+applications but it's there if you need
+
+196
+00:06:41.039 --> 00:06:45.039
+it so on this virtual machine this is
+
+197
+00:06:43.199 --> 00:06:47.360
+linux the printed product name is
+
+198
+00:06:45.039 --> 00:06:49.520
+linux met20 product type linux mint
+
+199
+00:06:47.360 --> 00:06:51.520
+product version 20. you guessed it
+
+200
+00:06:49.520 --> 00:06:53.120
+the pretty product name is pretty much
+
+201
+00:06:51.520 --> 00:06:54.000
+just a beautified version of type and
+
+202
+00:06:53.120 --> 00:06:55.520
+version
+
+203
+00:06:54.000 --> 00:06:57.520
+there's my machine hostname you can see
+
+204
+00:06:55.520 --> 00:06:59.440
+this is on virtualbox
+
+205
+00:06:57.520 --> 00:07:00.639
+and the unique id in case i ever need
+
+206
+00:06:59.440 --> 00:07:03.759
+that
+
+207
+00:07:00.639 --> 00:07:04.319
+current cpu architecture is x 86 64. so
+
+208
+00:07:03.759 --> 00:07:07.680
+is the
+
+209
+00:07:04.319 --> 00:07:11.280
+build and the build abi is x86 64
+
+210
+00:07:07.680 --> 00:07:12.400
+little idion-lp 64. and if you have no
+
+211
+00:07:11.280 --> 00:07:13.758
+idea what that means
+
+212
+00:07:12.400 --> 00:07:17.840
+of course you can dive into the help
+
+213
+00:07:13.759 --> 00:07:17.840
+system and read all about it
+
+214
+00:07:18.720 --> 00:07:23.280
+i hope you enjoyed this video you can
+
+215
+00:07:20.560 --> 00:07:25.280
+find the source code out on github.com
+
+216
+00:07:23.280 --> 00:07:26.479
+if you need additional help myself and
+
+217
+00:07:25.280 --> 00:07:27.359
+thousands of other developers are
+
+218
+00:07:26.479 --> 00:07:29.680
+hanging out in the
+
+219
+00:07:27.360 --> 00:07:31.360
+voidrealms facebook group this is a
+
+220
+00:07:29.680 --> 00:07:32.960
+large group with lots of developers and
+
+221
+00:07:31.360 --> 00:07:34.800
+we talk about everything technology
+
+222
+00:07:32.960 --> 00:07:35.680
+related not just the technology that you
+
+223
+00:07:34.800 --> 00:07:37.520
+just watched
+
+224
+00:07:35.680 --> 00:07:39.759
+and if you want official training i do
+
+225
+00:07:37.520 --> 00:07:41.840
+develop courses out on udemy.com
+
+226
+00:07:39.759 --> 00:07:43.440
+this is official classroom style
+
+227
+00:07:41.840 --> 00:07:44.719
+training if you go out there and the
+
+228
+00:07:43.440 --> 00:07:45.280
+course you're looking for is just simply
+
+229
+00:07:44.720 --> 00:07:46.879
+not there
+
+230
+00:07:45.280 --> 00:07:49.119
+drop me a note i'm either working on it
+
+231
+00:07:46.879 --> 00:07:51.039
+or i will actually develop it
+
+232
+00:07:49.120 --> 00:07:52.879
+i will put a link down below for all
+
+233
+00:07:51.039 --> 00:07:55.199
+three of those and as always
+
+234
+00:07:52.879 --> 00:07:56.319
+help me help you smash that like and
+
+235
+00:07:55.199 --> 00:07:58.400
+subscribe button
+
+236
+00:07:56.319 --> 00:07:59.759
+the more popular these videos become the
+
+237
+00:07:58.400 --> 00:08:00.400
+more i'll create and publish out on
+
+238
+00:07:59.759 --> 00:08:05.599
+youtube
+
+239
+00:08:00.400 --> 00:08:05.599
+thank you for watching

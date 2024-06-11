@@ -6,28 +6,35 @@ kanban-plugin: basic
 
 ## Project
 
-- [ ] [[1-Projects/树]]
+- [ ] [[4-Archives/Project of Archives/数据结构/树]]
 - [ ] [[向量]]
-<!--ID: 1710164634005-->
-
+- [ ] [[搜索]]
+- [ ] [[线性代数]]
+- [ ] [[笔记整理]]
+- [ ] [[向量]]
 
 
 ## Area
 
+- [ ] [[Anki笔记整理]]
 - [ ] [[数据结构]]
-<!--ID: 1710164634008-->
-
+- [ ] [[Obsidian操作]]
+- [ ] [[算法]]
+- [ ] [[高等数学(下)]]
 
 
 ## Resources
 
 - [ ] [[二叉搜索树的各类操作]]
-<!--ID: 1710164634011-->
-
 
 
 ## Archives
 
+
+
+## Anki
+
+- [ ] ![[Anki.lnk]]
 
 
 
@@ -37,4 +44,3 @@ kanban-plugin: basic
 {"kanban-plugin":"basic"}
 ```
 %%
-<!--ID: 1710164634014-->

@@ -7,6 +7,7 @@ tags:
   - Anki
 ---
 DECK: 数据结构::树
+FILE TAGS: AVL树
 # AVL的来源是什么
 二叉搜索树在多次插入和删除操作后,可能退化为链表。这种情况下，所有操作的时间复杂度将从 𝑂(log 𝑛) 恶化为 𝑂(𝑛)。
 ![[BAvMXOSKbrXnYZww-49fcb223-1732-74e7-95a9-0ec028176e29.png|756]]

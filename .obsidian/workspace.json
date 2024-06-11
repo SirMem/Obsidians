@@ -4,37 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ab71bfc247930c5",
+        "id": "d18282c3a1be1b94",
         "type": "tabs",
-        "dimension": 57.72921108742004,
         "children": [
           {
-            "id": "36f9b7b4b8104bad",
-            "type": "leaf",
-            "state": {
-              "type": "bm-book-view",
-              "state": {
-                "bid": "BAvMXOSKbrXnYZww",
-                "viewerState": {
-                  "page": 210
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "696035451682dbb7",
-        "type": "tabs",
-        "dimension": 42.27078891257996,
-        "children": [
-          {
-            "id": "761424cda4cab8e0",
+            "id": "b20867b4f659a7b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "file": "3-Resources/重述笔记/Translation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "图的基本",
+                "query": "换底",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +74,15 @@
             }
           },
           {
-            "id": "33735fa62746e202",
+            "id": "6b4a9cf52fca04ca",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
+              "state": {}
+            }
+          },
+          {
+            "id": "3474ecbaa608ca91",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "file": "3-Resources/重述笔记/Translation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/重述笔记/图的基本操作.md",
+                "file": "3-Resources/重述笔记/Translation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,19 +150,76 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/重述笔记/图的基本操作.md"
+                "file": "3-Resources/重述笔记/Translation.md"
               }
             }
+          },
+          {
+            "id": "6b3d5820b7cdeb2f",
+            "type": "leaf",
+            "state": {
+              "type": "langr-learn-panel",
+              "state": {}
+            }
+          },
+          {
+            "id": "8215d2ae3e1d3040",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "34a1bf07d3d14c9e",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c9df50f35b0502a",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "90cbacc7042e493b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "29ce8fc1d9a74320",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "dbb2c5cca66fdbfb",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 359.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -184,57 +228,70 @@
       "command-palette:打开命令面板": false,
       "obsidian-bookmaster-plugin:Book Explorer": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "chronology:Open Chronology": false,
+      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-omnivore:Omnivore": false,
+      "media-extended:Open media": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "761424cda4cab8e0",
+  "active": "b20867b4f659a7b7",
   "lastOpenFiles": [
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-be564a96-1d11-cd62-a7ab-ed9a070f774e.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-7b40ec7c-07b9-1df0-c431-eac4d0744c8e.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-c225c801-1cb6-87e3-cde5-25729c3b926c.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-e66eb4c7-7cb5-6fdb-1fa7-193690cd1532.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-a3df6908-130c-fc97-353c-e030f2dfbc0b.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-c5627c3e-946d-aa7f-83c7-195f79e01272.png",
-    "3-Resources/excalidraw/Drawing 2024-03-15 09.12.27.excalidraw.md",
-    "3-Resources/重述笔记/图的基本操作.md",
-    "3-Resources/重述笔记/向量的坐标以及在数轴上的投影.md",
-    "1-Projects/图.md",
-    "3-Resources/excalidraw",
-    "3-Resources/重述笔记/图的基本内容.md",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-63eef14b-a1f2-7e11-b857-69fcd4a1256e.png",
-    "1-Projects/堆.md",
-    "1-Projects/向量.md",
-    "Spaces/Home",
-    "Spaces",
-    "1-Projects/树.md",
-    "1-Projects/笔记整理.md",
-    "Project/Project.md",
-    "1/1.md",
-    "1",
-    "Project",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-f744869a-c62a-86f1-81ec-d4c8aedc6cbc.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-00c8b55e-1a86-4927-5957-112a56852630.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-56421407-7d07-0c4e-bf4a-525772d60422.png",
-    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-6fb702eb-ef17-6ade-c0ea-615246ea16f7.png",
-    "3-Resources/重述笔记/堆的小结.md",
-    "3-Resources/重述笔记/堆的基本操作.md",
-    "3-Resources/重述笔记/堆的结构.md",
-    "3-Resources/重述笔记/树的小结与重点提问.md",
-    "3-Resources/Anki/AVL_Anki.md",
-    "3-Resources/重述笔记/AVL树.md",
-    "3-Resources/Anki/树anki.md",
-    "0-assets/bookmaster/book-data/00/ApFYoYPagzbKkvGg.md",
-    "1-Projects/未命名.md",
-    "3-Resources/重述笔记/二叉搜索树的各类操作.md",
-    "1-Projects/AVL树.md",
-    "2-Area/AVL树.md",
-    "4-Archives/Project of Archives/树的Anki整理.md",
-    "4-Archives/Project of Archives",
-    "2-Area/Obsidian操作.md",
-    "3-Resources/Anki",
-    "0-assets/bookmaster/book-annotations/00/hzIxouGFlVmztVmO.xml",
-    "0-assets/memos",
-    "0-assets/kanban"
+    "smart-chats",
+    "1-Projects/前缀词根后缀.md",
+    "3-Resources/重述笔记/Translation.md",
+    "2-Area/English.md",
+    "3-Resources/excalidraw/单词音节.md",
+    "1-Projects/无穷级数.md",
+    "3-Resources/excalidraw/归并排序Excalidraw.md",
+    "3-Resources/excalidraw/哈希表Excalidraw.md",
+    "3-Resources/excalidraw/个人学习.md",
+    "1-Projects/微分方程.md",
+    "0-assets/photos/Pasted image 20240605222036.png",
+    "3-Resources/重述笔记/无穷级数快速概括.md",
+    "3-Resources/重述笔记/幂级数.md",
+    "1-Projects/多重积分.md",
+    "0-assets/memos/2024-06-05.md",
+    "4-Archives/Project of Archives/Linux.md",
+    "4-Archives/Project of Archives/搜索.md",
+    "3-Resources/重述笔记/Linux的文件和目录操作.md",
+    "Omnivore/2024-04-06/Vim 文本编辑器 - 人人都懂物联网.md",
+    "3-Resources/重述笔记/Linux的基本命令和文件系统结构.md",
+    "3-Resources/重述笔记/Linux的自动化任务.md",
+    "3-Resources/重述笔记/Linux的网络管理.md",
+    "3-Resources/重述笔记/Linux的包管理.md",
+    "3-Resources/重述笔记/Linux的进程管理.md",
+    "3-Resources/重述笔记/Linux的脚本编写.md",
+    "3-Resources/重述笔记/Linux的系统监控.md",
+    "3-Resources/重述笔记/Linux的文本处理工具.md",
+    "15篇过4级(英汉).pdf",
+    "0-assets/photos/ziyunote-20240529_215548.jpg",
+    "0-assets/photos/ziyunote-20240529_115548.jpg",
+    "0-assets/photos/ziyunote-20240529_110159.jpg",
+    "0-assets/photos/ziyunote-20240528_205650.jpg",
+    "0-assets/photos/ziyunote-20240528_205642.jpg",
+    "0-assets/photos/ziyunote-20240528_205603.jpg",
+    "0-assets/photos/ziyunote-20240528_205545.jpg",
+    "0-assets/photos/ziyunote-20240528_205135.jpg",
+    "0-assets/photos/ziyunote-20240528_204949.jpg",
+    "0-assets/photos/bilibili_1@bv1vc411j75k.1480620382909217000.zh.vtt",
+    "0-assets/photos/youtube_ptpd6ufe2_s.a_en.en.vtt",
+    "0-assets/photos/bilibili_1@bv1ym411c7vt.1480474896168791600.zh.vtt",
+    "4-Archives/Stopping",
+    "四级长篇阅读真题+2015.06-2022.12.pdf",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "//Untitled.canvas",
+    "Untitled.canvas"
   ]
 }

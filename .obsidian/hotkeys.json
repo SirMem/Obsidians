@@ -38,5 +38,39 @@
       ],
       "key": "Numpad1"
     }
-  ]
+  ],
+  "quickadd:choice:825b4aee-30e8-420f-b9df-d0cbdb504545": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad4"
+    }
+  ],
+  "obsidian-language-learner:langr-search-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-copy-block-link:copy-link-to-block": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "quickadd:choice:ab0e84c6-6571-431c-91be-3ea15dd58029": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad5"
+    }
+  ],
+  "make-md:mk-blink": []
 }

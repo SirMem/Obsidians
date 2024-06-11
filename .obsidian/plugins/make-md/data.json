@@ -1,6 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
+  "navigatorEnabled": true,
   "filePreviewOnHover": false,
   "flowMenuEnabled": true,
   "markSans": false,
@@ -25,6 +26,7 @@
   "defaultDateFormat": "MMM dd yyyy",
   "spacesEnabled": true,
   "spacesPerformance": false,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -36,7 +38,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "1-Projects",
+    "spaces://$tags",
+    "spaces://$tags/spaces://#project",
+    "spaces://$tags/spaces://#excalidraw"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -47,7 +53,9 @@
   "spacesFolder": "Spaces",
   "hiddenFiles": [],
   "hiddenExtensions": [
-    ".mdb"
+    ".mdb",
+    "_assets",
+    "_blocks"
   ],
   "inlineBacklinks": false,
   "inlineContext": true,
@@ -78,10 +86,13 @@
   "autoMigration08": false,
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
-  "enableTagSpaces": true,
-  "enableHomeSpace": true,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
-  "systemName": "Vault"
+  "systemName": "Needyou",
+  "defaultSpaceTemplate": "",
+  "selectedKit": "default",
+  "actionMaxSteps": 100,
+  "enableTagSpaces": true,
+  "enableHomeSpace": true
 }

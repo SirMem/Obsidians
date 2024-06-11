@@ -1,1 +1,8 @@
+- [四级长篇阅读真题+2015.06-2022.12](obsidian://bookmaster?type=open-book&bid=pEvKWoHTAxNtozKG)
+- [Qt 5.9 C++开发指南 (王维波,栗宝鹃,侯春望) (Z-Library)](obsidian://bookmaster?type=open-book&bid=HtqRRUcwsDJTELHZ)
+- [操作系统：原理与实现](obsidian://bookmaster?type=open-book&bid=raVzvbusFpmvqlHI)
+- [深入理解计算机系统 (Randal E. Bryant, David R. O’Hallaron) (Z-Library)](obsidian://bookmaster?type=open-book&bid=eDqKLfGvNLCndwWt)
+- [C Primer Plus 第6版 中文版](obsidian://bookmaster?type=open-book&bid=QSAklSBPUaezzDon)
+- [《汇编语言》(第4版) ](obsidian://bookmaster?type=open-book&bid=uonZPfPwXUZtRIjc)
 - [hello-algo-1.0.0b5-zh-cpp](obsidian://bookmaster?type=open-book&bid=BAvMXOSKbrXnYZww)
+- [C++17-STL-Cookbook-zh](obsidian://bookmaster?type=open-book&bid=xKqORwRGGAaDuCYv)

@@ -18,7 +18,8 @@
       "问答题": "",
       "问答题（同时生成翻转的卡片<可选>）": "",
       "问答题（同时生成翻转的卡片）": "",
-      "问答题（输入答案）": ""
+      "问答题（输入答案）": "",
+      "Basic (and reversed card)": ""
     },
     "FILE_LINK_FIELDS": {
       "Image Occlusion Enhanced": "ID (hidden)",
@@ -68,7 +69,12 @@
       "3-Resources/摘录笔记": "",
       "3-Resources/概念笔记": "",
       "3-Resources/重述笔记": "",
-      "3-Resources/Anki": ""
+      "3-Resources/Anki": "",
+      "0-assets/language": "",
+      "3-Resources/article": "",
+      "3-Resources/excalidraw": "",
+      "4-Archives/Project of Archives": "",
+      "4-Archives/Project of Archives/数据结构": ""
     },
     "FOLDER_TAGS": {
       "0-assets": "",
@@ -94,7 +100,12 @@
       "3-Resources/摘录笔记": "",
       "3-Resources/概念笔记": "",
       "3-Resources/重述笔记": "",
-      "3-Resources/Anki": ""
+      "3-Resources/Anki": "",
+      "0-assets/language": "",
+      "3-Resources/article": "",
+      "3-Resources/excalidraw": "",
+      "4-Archives/Project of Archives": "",
+      "4-Archives/Project of Archives/数据结构": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -135,7 +146,22 @@
     "BAvMXOSKbrXnYZww-f25b5c9c-ac2f-9ffa-06ee-27228054fe00.png",
     "BAvMXOSKbrXnYZww-1d3f38ae-2031-cb07-f710-e90e21e269da.png",
     "BAvMXOSKbrXnYZww-8e84d077-2c2c-b668-c235-219e1d302c4f.png",
-    "BAvMXOSKbrXnYZww-3ad3bd36-8ba6-31cf-1cf1-0e6782311a5e.png"
+    "BAvMXOSKbrXnYZww-3ad3bd36-8ba6-31cf-1cf1-0e6782311a5e.png",
+    "BAvMXOSKbrXnYZww-766382f6-35f5-486c-0948-15fb345814d3.png",
+    "BAvMXOSKbrXnYZww-6d2fb0e1-7bcb-04b3-b278-3b0ba07df4fd.png",
+    "BAvMXOSKbrXnYZww-b0bfee23-824e-80c8-d7de-890f42bb264d.png",
+    "BAvMXOSKbrXnYZww-ba9ef284-e35f-b297-7339-467ab978f17b.png",
+    "BAvMXOSKbrXnYZww-be3d89b7-6a43-6128-38f7-0f52f7918674.png",
+    "BAvMXOSKbrXnYZww-cc2ca3c1-5b19-7354-e1e7-08528c076268.png",
+    "BAvMXOSKbrXnYZww-4a2c2afb-2692-4f6d-c2d3-ff55e831a589.png",
+    "BAvMXOSKbrXnYZww-5c256adf-b4ec-2e40-964c-5c6939f250c2.png",
+    "BAvMXOSKbrXnYZww-9e3bef12-7c94-cb5b-f8ef-0e3491a4960d.png",
+    "BAvMXOSKbrXnYZww-4db17480-3d86-80f3-be51-79cc95a00fc9.png",
+    "BAvMXOSKbrXnYZww-a1ecc6f0-9587-16c4-2453-1290c56d05dd.png",
+    "BAvMXOSKbrXnYZww-776248b7-75a2-27e9-e68b-14209f5fc366.png",
+    "BAvMXOSKbrXnYZww-4317b66e-ef83-42b6-090b-5ba62db2fa10.png",
+    "BAvMXOSKbrXnYZww-35d9cf16-cb4e-f357-a960-ba53d4664650.png",
+    "BAvMXOSKbrXnYZww-3f7f4647-154f-5e47-e4be-70123a63ca3c.png"
   ],
   "File Hashes": {
     "2-概念笔记/obsidian to anki note.md": "1f64b10d7d6f03e9a08b7e95be7b6e09",
@@ -193,10 +219,19 @@
     "0-assets/templates/Project template.md": "c2fdf45559ebbdeace7e4d222dec9985",
     "0-assets/templates/Area template.md": "646ace652eb4560abdd2b69cffa47346",
     "0-assets/memos/2024-03-11.md": "fffe3715a2a8b0dc6e50f2bb8608b33c",
-    "3-Resources/Anki/树anki.md": "7d2666c82b4be1ee2d0bfaeb4e60fbd1",
-    "3-Resources/Anki/AVL_Anki.md": "b0998c84c9024efdfb70e097d85a4d0c"
+    "3-Resources/Anki/树anki.md": "50ba09ea872eb790d23cdbbf6519eccf",
+    "3-Resources/Anki/AVL_Anki.md": "bac9a4febd82e24199af64b44673afaf",
+    "3-Resources/Anki/哈希表Anki.md": "9efb26f5462d7f93d47e9c531db45e20",
+    "3-Resources/Anki/堆Anki.md": "c96f4ab9c8b3bb5e7cf640cd19c9aeca",
+    "3-Resources/Anki/队列Anki.md": "99d0f2349b0463c84197b92558c0f724",
+    "3-Resources/Anki/链表Anki.md": "e3b060108d865739c7f01e422fb9d6fe",
+    "3-Resources/Anki/testAnki.md": "fb49524ab4df3b4191b27add27c5fbaf"
   },
   "fields_dict": {
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
     "Image Occlusion Enhanced": [
       "ID (hidden)",
       "Header",

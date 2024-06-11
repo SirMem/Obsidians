@@ -12,5 +12,20 @@
   "oz-clear-unused-images",
   "floating-toc",
   "editing-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-language-learner",
+  "obsidian-spaced-repetition",
+  "obsidian-reminder-plugin",
+  "make-md",
+  "omnisearch",
+  "obsidian-omnivore",
+  "obsidian-projects",
+  "chronology",
+  "obsidian-topic-linking",
+  "obsidian-copy-block-link",
+  "cmdr",
+  "obsidian-hover-editor",
+  "media-extended",
+  "smart-connections",
+  "quick-latex"
 ]

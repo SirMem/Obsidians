@@ -111,7 +111,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "3-Resources/Anki/{{value:AnkiName}}.md",
+      "captureTo": "3-Resources/Anki/{{value:AnkiName}}Anki.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
@@ -120,7 +120,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "---\nResource:\nStatus:\nDeadline:\nCreateTime:\ntags: Anki\n---\nDECK: "
+        "format": "---\nResource:\nStatus:\nDeadline:\nCreateTime:\ntags: Anki\n---\nDECK: \nFILE TAGS: "
       },
       "insertAfter": {
         "enabled": false,
@@ -155,7 +155,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "---\n\nexcalidraw-plugin: parsed\ntags: [excalidraw]\n\n---\n\n%%\n# Drawing\n```json\n{\"type\":\"excalidraw\",\"version\":2,\"source\":\"https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20\",\"elements\":[],\"appState\":{\"gridSize\":null,\"viewBackgroundColor\":\"#ffffff\"}}\n```\n%%"
+        "format": "---\n\nexcalidraw-plugin: parsed\ntags: [excalidraw]\nCreateTime: {{date}}\n---\n\n%%\n# Drawing\n```json\n{\"type\":\"excalidraw\",\"version\":2,\"source\":\"https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20\",\"elements\":[],\"appState\":{\"gridSize\":null,\"viewBackgroundColor\":\"#ffffff\"}}\n```\n%%"
       },
       "insertAfter": {
         "enabled": false,
@@ -173,6 +173,41 @@
         "focus": true
       },
       "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "57ac8f6a-aee3-4b76-9473-70ad238ae199",
+      "name": "article",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "3-Resources/article/{{value:articleName}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\nlangr: None\nlangr-audio: None\nlangr-origin: None\nlangr-pos: \"null\"\ntags: article\n---\n\n^^^article\n\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
       "openFileInMode": "default"
     }
   ],

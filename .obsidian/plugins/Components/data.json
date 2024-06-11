@@ -1,0 +1,116 @@
+{
+  "widgets": [],
+  "components": [
+    {
+      "id": "722e8870-ad7f-46e7-9b9d-c7bffd901b95",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-08T09:02:37.790Z",
+      "updateAt": "2024-04-08T09:06:36.017Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "b99a5529-b98c-410c-afd4-2184fe979ba0"
+        },
+        {
+          "componentId": "36247202-dfa5-43b4-9457-656d851b7b46"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "b99a5529-b98c-410c-afd4-2184fe979ba0",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-08T09:02:43.811Z",
+      "updateAt": "2024-04-08T09:06:18.223Z",
+      "backgroundStyle": "none",
+      "viewType": "table",
+      "datasource": {
+        "filter": {
+          "conditions": [
+            {
+              "value": "#Project",
+              "operator": "contains",
+              "property": "${file.tags}",
+              "id": "8e01b0c7-bd41-49b0-bf90-e5157e1c8aaa"
+            }
+          ]
+        },
+        "dataLimit": 50,
+        "storage": {
+          "location": ""
+        },
+        "sort": {
+          "orders": []
+        }
+      },
+      "properties": [],
+      "templates": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "itemSize": "gallary-small",
+        "cover": {
+          "type": "pageFirstImage",
+          "value": "",
+          "fit": "contains"
+        }
+      }
+    },
+    {
+      "id": "813773ee-e97e-496c-ab9d-ac1ddfaec4f8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-08T09:03:10.281Z",
+      "updateAt": "2024-04-08T09:03:20.054Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "709f7157-ccad-441a-b351-0ad24ef5ca64"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "709f7157-ccad-441a-b351-0ad24ef5ca64",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-08T09:03:20.054Z",
+      "updateAt": "2024-04-08T09:03:34.947Z",
+      "backgroundStyle": "card",
+      "repeatType": "none",
+      "showEndDateTime": true,
+      "endHour": 2,
+      "endMinute": 0,
+      "endSecond": 0,
+      "endYear": 2024,
+      "endMonth": 3,
+      "endDayOfMonth": 9
+    },
+    {
+      "id": "36247202-dfa5-43b4-9457-656d851b7b46",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-08T09:06:36.017Z",
+      "updateAt": "2024-04-08T09:06:45.446Z",
+      "backgroundStyle": "card",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "ring"
+    }
+  ]
+}
