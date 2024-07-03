@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d18282c3a1be1b94",
+        "id": "ae60c19528202b87",
         "type": "tabs",
         "children": [
           {
-            "id": "b20867b4f659a7b7",
+            "id": "40f8756c6a3bcfbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-Resources/重述笔记/Translation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/重述笔记/Translation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/重述笔记/Translation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3-Resources/重述笔记/Translation.md"
-              }
+              "state": {}
             }
           },
           {
@@ -244,45 +236,45 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b20867b4f659a7b7",
+  "active": "40f8756c6a3bcfbb",
   "lastOpenFiles": [
-    "smart-chats",
-    "1-Projects/前缀词根后缀.md",
-    "3-Resources/重述笔记/Translation.md",
-    "2-Area/English.md",
-    "3-Resources/excalidraw/单词音节.md",
+    "3-Resources/重述笔记/空间中的方程.md",
+    "0-assets/photos/Pasted image 20240703221050.png",
+    "0-assets/photos/ziyunote-20240703_220944.jpg",
+    "0-assets/photos/Pasted image 20240703220736.png",
+    "0-assets/photos/Pasted image 20240703220705.png",
+    "4-Archives/Project of Archives/空间解析几何.md",
+    "2-Area/高等数学(下).md",
     "1-Projects/无穷级数.md",
-    "3-Resources/excalidraw/归并排序Excalidraw.md",
-    "3-Resources/excalidraw/哈希表Excalidraw.md",
-    "3-Resources/excalidraw/个人学习.md",
-    "1-Projects/微分方程.md",
-    "0-assets/photos/Pasted image 20240605222036.png",
-    "3-Resources/重述笔记/无穷级数快速概括.md",
     "3-Resources/重述笔记/幂级数.md",
+    "0-assets/photos/ziyunote-20240703_212656.jpg",
+    "0-assets/photos/ziyunote-20240703_212023.jpg",
+    "0-assets/photos/ziyunote-20240703_211905.jpg",
+    "0-assets/photos/ziyunote-20240703_211635.jpg",
+    "0-assets/photos/ziyunote-20240703_211630.jpg",
+    "3-Resources/重述笔记/无穷级数快速概括.md",
+    "3-Resources/重述笔记/微分方程快速入门.md",
+    "1-Projects/微分方程.md",
     "1-Projects/多重积分.md",
-    "0-assets/memos/2024-06-05.md",
-    "4-Archives/Project of Archives/Linux.md",
-    "4-Archives/Project of Archives/搜索.md",
-    "3-Resources/重述笔记/Linux的文件和目录操作.md",
-    "Omnivore/2024-04-06/Vim 文本编辑器 - 人人都懂物联网.md",
-    "3-Resources/重述笔记/Linux的基本命令和文件系统结构.md",
-    "3-Resources/重述笔记/Linux的自动化任务.md",
-    "3-Resources/重述笔记/Linux的网络管理.md",
-    "3-Resources/重述笔记/Linux的包管理.md",
-    "3-Resources/重述笔记/Linux的进程管理.md",
-    "3-Resources/重述笔记/Linux的脚本编写.md",
-    "3-Resources/重述笔记/Linux的系统监控.md",
-    "3-Resources/重述笔记/Linux的文本处理工具.md",
+    "3-Resources/重述笔记/二重积分.md",
+    "3-Resources/重述笔记/曲线积分.md",
+    "3-Resources/excalidraw/重积分.md",
+    "3-Resources/重述笔记/叉乘.md",
+    "4-Archives/向量.md",
+    "3-Resources/重述笔记/向量的坐标以及在数轴上的投影.md",
+    "3-Resources/重述笔记/向量与空间直角坐标系.md",
+    "3-Resources/重述笔记/二阶线性微分方程.md",
+    "0-assets/photos/ziyunote-20240703_111403.jpg",
+    "1-Projects/临时考试项目.md",
+    "1-Projects/线性代数.md",
+    "3-Resources/重述笔记/多元函数微分学.md",
+    "HOME.md",
+    "0-assets/memos/2024-07-02.md",
+    "4-Archives/Math/多元函数.md",
+    "0-assets/bookmaster/book-data/00/ohdQhSCHQINCOila.md",
+    "0-assets/bookmaster/book-data/00/DYuBAnPlJoZuctFC.md",
+    "smart-chats",
     "15篇过4级(英汉).pdf",
-    "0-assets/photos/ziyunote-20240529_215548.jpg",
-    "0-assets/photos/ziyunote-20240529_115548.jpg",
-    "0-assets/photos/ziyunote-20240529_110159.jpg",
-    "0-assets/photos/ziyunote-20240528_205650.jpg",
-    "0-assets/photos/ziyunote-20240528_205642.jpg",
-    "0-assets/photos/ziyunote-20240528_205603.jpg",
-    "0-assets/photos/ziyunote-20240528_205545.jpg",
-    "0-assets/photos/ziyunote-20240528_205135.jpg",
-    "0-assets/photos/ziyunote-20240528_204949.jpg",
     "0-assets/photos/bilibili_1@bv1vc411j75k.1480620382909217000.zh.vtt",
     "0-assets/photos/youtube_ptpd6ufe2_s.a_en.en.vtt",
     "0-assets/photos/bilibili_1@bv1ym411c7vt.1480474896168791600.zh.vtt",

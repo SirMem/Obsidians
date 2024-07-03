@@ -5,7 +5,7 @@
       "bookVaultPaths": {
         "00": "F:\\Books"
       },
-      "bookViewerWorkerPath": "http://[fe80::73d6:e7d0:db8c:8b14]/bookviewer/"
+      "bookViewerWorkerPath": "http://[fe80::9328:642f:9b13:d68a]/bookviewer/"
     }
   },
   "dataPath": "0-assets/bookmaster",
