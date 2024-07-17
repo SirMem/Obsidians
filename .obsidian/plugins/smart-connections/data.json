@@ -2,7 +2,7 @@
   "new_user": false,
   "chat_folder": "smart chat",
   "smart_notes_embed_model": "TaylorAI/bge-micro-v2",
-  "smart_blocks_embed_model": "None",
+  "smart_blocks_embed_model": "TaylorAI/bge-micro-v2",
   "smart_connections_folder": ".smart-connections",
   "smart_connections_folder_last": ".smart-connections",
   "system_prompts_folder": "smart prompts",
@@ -17,7 +17,10 @@
   "embed_input_min_chars": 50,
   "multi_heading_blocks": true,
   "enable_mobile": false,
-  "api_key": "",
+  "actions": {
+    "lookup": true
+  },
+  "api_key": "sk-FastAPIHj1te0Zg0vNv4KCr5PZfBW1eX0DK0yrb5JVS9inXm",
   "excluded_headings": "",
   "file_exclusions": "Untitled",
   "folder_exclusions": "smart-chats",
@@ -27,16 +30,19 @@
   "log_render": false,
   "log_render_files": false,
   "recently_sent_retry_notice": false,
-  "version": "2.1.66",
+  "version": "2.1.86",
   "custom_api": {
     "model_name": "GPTFree",
     "description": "Custom API (OpenAI format)",
     "type": "API",
-    "protocol": "https",
-    "hostname": "https://api.chatanywhere.cn",
-    "api_key": "sk-xiQvFpRXt5himpNgOtWF8nAalYTZwgPTf5IjTu1XlzNNvUw7",
+    "protocol": "http",
+    "hostname": "https://api.chatanywhere.tech",
+    "api_key": "sk-hmsDPu6hBbmWtMPDQWsbujJEH3pzxWtPjBFGt9FHBkkub5Nb",
     "streaming": true,
-    "path": "1",
-    "max_input_tokens": 1000
+    "path": "",
+    "max_input_tokens": 8000
+  },
+  "openai": {
+    "api_key": "sk-FastAPIHj1te0Zg0vNv4KCr5PZfBW1eX0DK0yrb5JVS9inXm"
   }
 }

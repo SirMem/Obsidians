@@ -26,6 +26,7 @@
     "Connected": "multitext",
     "Area": "multitext",
     "excalidraw-open-md": "checkbox",
-    "excalidraw-export-embed-scene": "checkbox"
+    "excalidraw-export-embed-scene": "checkbox",
+    "excalidraw-embeddable-theme": "text"
   }
 }

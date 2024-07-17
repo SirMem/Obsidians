@@ -4,14 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ae60c19528202b87",
+        "id": "1595fd1b4f0c64a1",
         "type": "tabs",
         "children": [
           {
-            "id": "40f8756c6a3bcfbb",
+            "id": "a84bea70001e5301",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "1-Projects/web前端.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4445f22db22457b2",
+            "type": "leaf",
+            "state": {
+              "type": "bm-book-view",
               "state": {}
             }
           }
@@ -44,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "换底",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,19 +90,19 @@
             }
           },
           {
-            "id": "3474ecbaa608ca91",
+            "id": "7ded26dc7b078f0f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "afe68af1243a1c11",
@@ -106,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-Projects/web前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-Projects/web前端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1-Projects/web前端.md"
+              }
             }
           },
           {
@@ -226,63 +242,64 @@
       "obsidian-language-learner:单词列表": false,
       "chronology:Open Chronology": false,
       "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-projects:Open projects": false,
       "obsidian-omnivore:Omnivore": false,
       "media-extended:Open media": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "40f8756c6a3bcfbb",
+  "active": "a84bea70001e5301",
   "lastOpenFiles": [
-    "3-Resources/重述笔记/空间中的方程.md",
+    "3-Resources/重述笔记/css快速入门.md",
+    "1-Projects/web前端.md",
+    "0-assets/bookmaster/book-annotations/00/BivBDgYtddnfazqG.xml",
+    "0-assets/bookmaster/book-data/00/BivBDgYtddnfazqG.md",
+    "4-Archives/CS/QT.md",
+    "smart-chats/UNTITLED CHAT 2024-07-16 08 27 31.md",
+    "smart-chats/UNTITLED CHAT 2024-07-16 08 13 53.md",
+    "smart-chats/UNTITLED CHAT 2024-07-16 08 06 30.md",
+    "HOME.md",
+    "1-Projects/临时考试项目.md",
+    "3-Resources/重述笔记/幂级数.md",
+    "1-Projects/无穷级数.md",
+    "0-assets/bookmaster/book-data/00/UVkWQINsefjPyLYl.md",
+    "3-Resources/重述笔记/Parent child relations.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "0-assets/memos/2024-07-08.md",
+    "0-assets/bookmaster/book-annotations/00/fhDDGAfnqTBGBeVp.xml",
+    "0-assets/bookmaster/book-data/00/fhDDGAfnqTBGBeVp.md",
+    "0-assets/bookmaster/book-annotations/00/YSVtjVWOntTMxnGE.xml",
+    "0-assets/bookmaster/book-data/00/YSVtjVWOntTMxnGE.md",
+    "0-assets/bookmaster/book-annotations/00/ohdQhSCHQINCOila.xml",
+    "0-assets/memos/2024-07-07.md",
+    "4-Archives/Project of Archives/Linux.md",
+    "3-Resources/重述笔记/Linux的文件和目录操作.md",
+    "3-Resources/重述笔记/Linux的基本命令和文件系统结构.md",
+    "3-Resources/重述笔记/Linux的自动化任务.md",
+    "4-Archives/Stopping/Linux.md",
+    "3-Resources/重述笔记/Linux入门.md",
+    "3-Resources/重述笔记/无穷级数快速概括.md",
+    "0-assets/photos/ziyunote-20240704_143926.jpg",
     "0-assets/photos/Pasted image 20240703221050.png",
     "0-assets/photos/ziyunote-20240703_220944.jpg",
     "0-assets/photos/Pasted image 20240703220736.png",
     "0-assets/photos/Pasted image 20240703220705.png",
-    "4-Archives/Project of Archives/空间解析几何.md",
-    "2-Area/高等数学(下).md",
-    "1-Projects/无穷级数.md",
-    "3-Resources/重述笔记/幂级数.md",
     "0-assets/photos/ziyunote-20240703_212656.jpg",
     "0-assets/photos/ziyunote-20240703_212023.jpg",
     "0-assets/photos/ziyunote-20240703_211905.jpg",
     "0-assets/photos/ziyunote-20240703_211635.jpg",
     "0-assets/photos/ziyunote-20240703_211630.jpg",
-    "3-Resources/重述笔记/无穷级数快速概括.md",
-    "3-Resources/重述笔记/微分方程快速入门.md",
-    "1-Projects/微分方程.md",
-    "1-Projects/多重积分.md",
-    "3-Resources/重述笔记/二重积分.md",
-    "3-Resources/重述笔记/曲线积分.md",
-    "3-Resources/excalidraw/重积分.md",
-    "3-Resources/重述笔记/叉乘.md",
-    "4-Archives/向量.md",
-    "3-Resources/重述笔记/向量的坐标以及在数轴上的投影.md",
-    "3-Resources/重述笔记/向量与空间直角坐标系.md",
-    "3-Resources/重述笔记/二阶线性微分方程.md",
-    "0-assets/photos/ziyunote-20240703_111403.jpg",
-    "1-Projects/临时考试项目.md",
-    "1-Projects/线性代数.md",
-    "3-Resources/重述笔记/多元函数微分学.md",
-    "HOME.md",
-    "0-assets/memos/2024-07-02.md",
-    "4-Archives/Math/多元函数.md",
-    "0-assets/bookmaster/book-data/00/ohdQhSCHQINCOila.md",
-    "0-assets/bookmaster/book-data/00/DYuBAnPlJoZuctFC.md",
     "smart-chats",
     "15篇过4级(英汉).pdf",
     "0-assets/photos/bilibili_1@bv1vc411j75k.1480620382909217000.zh.vtt",
     "0-assets/photos/youtube_ptpd6ufe2_s.a_en.en.vtt",
     "0-assets/photos/bilibili_1@bv1ym411c7vt.1480474896168791600.zh.vtt",
     "4-Archives/Stopping",
-    "四级长篇阅读真题+2015.06-2022.12.pdf",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
     "//Untitled.canvas",
     "Untitled.canvas"
   ]

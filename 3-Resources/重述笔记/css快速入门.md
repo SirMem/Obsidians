@@ -132,8 +132,10 @@ https://github.com/lecepin/code-lab/tree/main/css-selector
 
   ```
 
-  
+## 层叠的规则
+选择器的优先级
 
+## 继承
 ## 3. CSS盒模型
 
 CSS 盒模型（Box Model）是网页布局和设计的基础概念之一。它描述了一个元素在网页中的空间占用情况，包括内容、内边距（padding）、边框（border）和外边距（margin）。理解盒模型有助于你更好地控制元素的布局和样式。下面是对 CSS 盒模型的详细讲解。

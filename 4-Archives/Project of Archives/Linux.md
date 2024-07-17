@@ -52,6 +52,10 @@ Area:
 - [x] 自动化任务 ✅ 2024-06-03
 	- [x] cron配置定时任务 ✅ 2024-06-03
 	- [x] at配置一次性任务 ✅ 2024-06-03
+
+
+Bash
+Shell
 Linux内核
 Linux boot引导
 Linux的应用操作
