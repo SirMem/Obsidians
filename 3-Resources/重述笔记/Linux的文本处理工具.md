@@ -1,5 +1,5 @@
 ---
-Project: "[[4-Archives/Project of Archives/Linux|Linux]]"
+Project: "[[Linux|Linux]]"
 Status: 
 tags:
   - Resources

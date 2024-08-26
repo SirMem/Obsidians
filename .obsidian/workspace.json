@@ -4,30 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1595fd1b4f0c64a1",
+        "id": "a73db5ea152fba17",
         "type": "tabs",
         "children": [
           {
-            "id": "a84bea70001e5301",
+            "id": "9cbdf64bcb1e7bcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Projects/web前端.md",
-                "mode": "source",
+                "file": "0-assets/language/store/terrorizing.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "4445f22db22457b2",
+            "id": "503e27f542985202",
             "type": "leaf",
             "state": {
               "type": "bm-book-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "screen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,15 +91,14 @@
             }
           },
           {
-            "id": "7ded26dc7b078f0f",
+            "id": "ab8f52f9edc123df",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Projects/web前端.md",
+                "file": "0-assets/language/store/terrorizing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Projects/web前端.md",
+                "file": "0-assets/language/store/terrorizing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Projects/web前端.md"
+                "file": "0-assets/language/store/terrorizing.md"
               }
             }
           },
@@ -195,14 +195,6 @@
             }
           },
           {
-            "id": "90cbacc7042e493b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "29ce8fc1d9a74320",
             "type": "leaf",
             "state": {
@@ -217,6 +209,14 @@
               "type": "smart-connections-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "be25436f0399f9d8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 7
@@ -227,63 +227,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-projects:打开项目": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-bookmaster-plugin:Book Explorer": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "chronology:Open Chronology": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-kanban:创建新看板": false,
       "obsidian-memos:Thino": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-omnivore:Omnivore": false,
-      "media-extended:Open media": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "omnisearch:Omnisearch": false,
+      "chronology:Open Chronology": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "a84bea70001e5301",
+  "active": "759a92327006517d",
   "lastOpenFiles": [
-    "3-Resources/重述笔记/css快速入门.md",
-    "1-Projects/web前端.md",
-    "0-assets/bookmaster/book-annotations/00/BivBDgYtddnfazqG.xml",
-    "0-assets/bookmaster/book-data/00/BivBDgYtddnfazqG.md",
-    "4-Archives/CS/QT.md",
-    "smart-chats/UNTITLED CHAT 2024-07-16 08 27 31.md",
-    "smart-chats/UNTITLED CHAT 2024-07-16 08 13 53.md",
-    "smart-chats/UNTITLED CHAT 2024-07-16 08 06 30.md",
-    "HOME.md",
-    "1-Projects/临时考试项目.md",
-    "3-Resources/重述笔记/幂级数.md",
-    "1-Projects/无穷级数.md",
-    "0-assets/bookmaster/book-data/00/UVkWQINsefjPyLYl.md",
-    "3-Resources/重述笔记/Parent child relations.md",
+    "0-assets/language/store/situations.md",
+    "0-assets/language/store/share.md",
+    "0-assets/language/store/hello.md",
+    "0-assets/language/store/frustrate.md",
+    "3-Resources/article/text1.md",
+    "0-assets/language/store/terrorizing.md",
+    "3-Resources/article/text2.md",
+    "0-assets/language/word.md",
+    "0-assets/language/store",
+    "0-assets/language/store.md",
+    "0-assets/language/review.md",
+    "3-Resources/article/test3.md",
+    "3-Resources/article/230602.md",
+    "0-assets/language/word1.md",
+    "3-Resources/article/202306.1.2.md",
+    "3-Resources/article/202306.1.1.md",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "0-assets/memos/2024-07-08.md",
+    "Untitled Kanban.md",
+    "Java多线程异步开发.md",
+    "202306.pdf",
+    "四级模拟卷全5套（带书签）.pdf",
+    "四级长篇阅读真题+2015.06-2022.12.pdf",
+    "3-Resources/重述笔记/Basic SpringBoot configuration.md",
+    "1-Projects/SpringBoot.md",
+    "3-Resources/Anki/AVL_Anki.md",
+    "3-Resources/Anki/testAnki.md",
+    "3-Resources/Anki/哈希表Anki.md",
+    "3-Resources/Anki/堆Anki.md",
+    "3-Resources/重述笔记/Screen.md",
+    "HOME.md",
+    "0-assets/bookmaster/book-annotations/00/BivBDgYtddnfazqG.xml",
     "0-assets/bookmaster/book-annotations/00/fhDDGAfnqTBGBeVp.xml",
-    "0-assets/bookmaster/book-data/00/fhDDGAfnqTBGBeVp.md",
     "0-assets/bookmaster/book-annotations/00/YSVtjVWOntTMxnGE.xml",
-    "0-assets/bookmaster/book-data/00/YSVtjVWOntTMxnGE.md",
     "0-assets/bookmaster/book-annotations/00/ohdQhSCHQINCOila.xml",
-    "0-assets/memos/2024-07-07.md",
-    "4-Archives/Project of Archives/Linux.md",
-    "3-Resources/重述笔记/Linux的文件和目录操作.md",
-    "3-Resources/重述笔记/Linux的基本命令和文件系统结构.md",
-    "3-Resources/重述笔记/Linux的自动化任务.md",
-    "4-Archives/Stopping/Linux.md",
-    "3-Resources/重述笔记/Linux入门.md",
-    "3-Resources/重述笔记/无穷级数快速概括.md",
     "0-assets/photos/ziyunote-20240704_143926.jpg",
     "0-assets/photos/Pasted image 20240703221050.png",
     "0-assets/photos/ziyunote-20240703_220944.jpg",
@@ -296,10 +299,6 @@
     "0-assets/photos/ziyunote-20240703_211630.jpg",
     "smart-chats",
     "15篇过4级(英汉).pdf",
-    "0-assets/photos/bilibili_1@bv1vc411j75k.1480620382909217000.zh.vtt",
-    "0-assets/photos/youtube_ptpd6ufe2_s.a_en.en.vtt",
-    "0-assets/photos/bilibili_1@bv1ym411c7vt.1480474896168791600.zh.vtt",
-    "4-Archives/Stopping",
     "//Untitled.canvas",
     "Untitled.canvas"
   ]

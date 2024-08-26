@@ -72,5 +72,13 @@
       "key": "Numpad5"
     }
   ],
-  "make-md:mk-blink": []
+  "make-md:mk-blink": [],
+  "obsidian-language-learner:langr-search-word-select": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
 }

@@ -11,6 +11,6 @@ authors: []
 tags: []
 status: reading
 rating: 0
-progress: 232
+progress: 185
 total: 570
 ---

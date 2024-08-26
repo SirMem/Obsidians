@@ -1,5 +1,5 @@
 ---
-Project: "[[4-Archives/Project of Archives/Linux|Linux]]"
+Project: "[[Linux|Linux]]"
 Status: 
 tags:
   - Resources
@@ -37,7 +37,7 @@ ps [选项]
    ```
    或者：
    ```bash
-   ps aux
+   ps aux | grep 进程关键词
    ```
 
 3. 显示以树状结构显示进程：

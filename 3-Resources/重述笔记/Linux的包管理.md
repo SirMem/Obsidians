@@ -1,5 +1,5 @@
 ---
-Project: "[[4-Archives/Project of Archives/Linux|Linux]]"
+Project: "[[Linux|Linux]]"
 Status: 🟩
 tags:
   - Resources
@@ -67,6 +67,10 @@ sudo apt remove vim
 
 `yum`（Yellowdog Updater, Modified）是基于RPM包管理的发行版（如CentOS和Fedora）中使用的包管理工具。
 
+#### yum的配置文件
+
+/etc/yum.repo.d/ 路径为yum的源配置地方，添加或删除相关的repo文件会影响yum的下载源
+
 #### 更新包索引
 
 在安装或升级软件包之前，通常需要先更新本地包索引：
@@ -111,6 +115,10 @@ sudo yum remove vim
    ```bash
    sudo yum clean all
    ```
+2. 添加新的缓存
+   ```bash
+   sudo yum makecache
+```
 
 ### `dnf` 包管理器
 
