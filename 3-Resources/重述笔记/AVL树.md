@@ -231,3 +231,7 @@ TreeNode *removeHelper(TreeNode *node,int val)
 ## 查找节点
 AVL 树的节点查找操作与二叉搜索树一致
 ![[二叉搜索树的各类操作#查找节点]]
+
+
+
+![image.png](https://raw.githubusercontent.com/SirMem/PicGo/main/img/20240827133750.png?token=AYSHPW4GOIV4OI3OUWULOKDGZVTGY)

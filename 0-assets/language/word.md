@@ -5,6 +5,7 @@ hello,    int. 喂，你好（用于问候或打招呼）；喂，你好（打�
 terrorizing,    v．恐吓，使恐怖
 situations,    n. 状况；情境；局面
 share,    v. 共享，合用；分享；分配；
+sarcasm,    n. 讽刺，挖苦
 
 #### 眼熟
 
@@ -23,3 +24,4 @@ int. 喂，你好（用于问候或打招呼）；喂，你好（打电话时的
 v．恐吓，使恐怖  ,  terrorizing
 n. 状况；情境；局面  ,  situations
 v. 共享，合用；分享；分配；  ,  share
+n. 讽刺，挖苦  ,  sarcasm

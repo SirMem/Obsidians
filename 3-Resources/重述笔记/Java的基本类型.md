@@ -1,11 +1,11 @@
 ---
-Project: "[[Java]]"
+Project: "[[接口和实现类的关系]]"
 Status: 
 tags:
   - Resources
 Deadline: 
 CreateTime: 2024-06-23
-Connected:
+Connected: 
 ---
 
 在Java编程语言中，类型系统是非常重要的基础概念。Java的类型系统分为两大类：**基本类型**（也称为原始类型）和**引用类型**。下面我们将详细讲解这两大类类型及其相关概念。

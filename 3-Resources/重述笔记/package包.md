@@ -1,11 +1,11 @@
 ---
-Project: "[[Java]]"
+Project: "[[接口和实现类的关系]]"
 Status: 
 tags:
   - Resources
 Deadline: 
 CreateTime: 2024-05-30
-Connected:
+Connected: 
 ---
 在Java中，`package`关键字用于将一组相关的类、接口和子包进行组织和管理。通过使用包，可以避免命名冲突，并且可以控制类和接口的访问权限。包结构有助于组织代码，使其更加模块化和易于维护。
 

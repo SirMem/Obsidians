@@ -1,11 +1,11 @@
 ---
-Project: "[[Java]]"
+Project: "[[接口和实现类的关系]]"
 Status: 
 tags:
   - Resources
 Deadline: 
 CreateTime: 2024-05-30
-Connected:
+Connected: 
 ---
 
 # `System`类的关键特性和成员

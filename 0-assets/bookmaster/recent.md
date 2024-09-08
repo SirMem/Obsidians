@@ -1,3 +1,4 @@
+- [hello-algo-1.0.0b5-zh-cpp](obsidian://bookmaster?type=open-book&bid=BAvMXOSKbrXnYZww)
 - [图灵前端核心知识进阶系列（套装全10册） ( etc.) (Z-Library)](obsidian://bookmaster?type=open-book&bid=BivBDgYtddnfazqG)
 - [操作系统：原理与实现](obsidian://bookmaster?type=open-book&bid=raVzvbusFpmvqlHI)
 - [计算机网络（第8版） (谢希仁) (Z-Library)](obsidian://bookmaster?type=open-book&bid=rwrkKtbYnjxpORjz)
@@ -14,4 +15,3 @@
 - [中国近现代史纲要+期末测试题库100题（含参考答案）+](obsidian://bookmaster?type=open-book&bid=fhDDGAfnqTBGBeVp)
 - [中国近代史纲要复习资料](obsidian://bookmaster?type=open-book&bid=ohdQhSCHQINCOila)
 - [微积分公式大全](obsidian://bookmaster?type=open-book&bid=CmiVxqvjFhHXZnEI)
-- [hello-algo-1.0.0b5-zh-cpp](obsidian://bookmaster?type=open-book&bid=BAvMXOSKbrXnYZww)

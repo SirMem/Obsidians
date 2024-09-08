@@ -1,11 +1,11 @@
 ---
-Project: "[[Java]]"
+Project: "[[接口和实现类的关系]]"
 Status: 
 tags:
   - Resources
 Deadline: 
 CreateTime: 2024-05-30
-Connected:
+Connected: 
 ---
 
 在Java中，`import`关键字用于引入其他包中的类或接口，以便在当前类中使用它们。它的功能与C++中的`#include`指令有相似之处，但也有一些关键的不同之处。

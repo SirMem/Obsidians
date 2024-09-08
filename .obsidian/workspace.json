@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a73db5ea152fba17",
+        "id": "2541bf12d7cf6191",
         "type": "tabs",
         "children": [
           {
-            "id": "9cbdf64bcb1e7bcc",
+            "id": "9d5bb05c15a96f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-assets/language/store/terrorizing.md",
-                "mode": "preview",
+                "file": "3-Resources/重述笔记/Mybatis动态SQL.md",
+                "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "503e27f542985202",
-            "type": "leaf",
-            "state": {
-              "type": "bm-book-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "screen",
+                "query": "Lombok",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,11 +89,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afe68af1243a1c11",
@@ -118,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-assets/language/store/terrorizing.md",
+                "file": "3-Resources/重述笔记/Mybatis动态SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-assets/language/store/terrorizing.md",
+                "file": "3-Resources/重述笔记/Mybatis动态SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-assets/language/store/terrorizing.md"
+                "file": "3-Resources/重述笔记/Mybatis动态SQL.md"
               }
             }
           },
@@ -251,38 +244,41 @@
       "media-extended:Open media": false
     }
   },
-  "active": "759a92327006517d",
+  "active": "9d5bb05c15a96f4e",
   "lastOpenFiles": [
-    "0-assets/language/store/situations.md",
-    "0-assets/language/store/share.md",
-    "0-assets/language/store/hello.md",
-    "0-assets/language/store/frustrate.md",
-    "3-Resources/article/text1.md",
-    "0-assets/language/store/terrorizing.md",
-    "3-Resources/article/text2.md",
-    "0-assets/language/word.md",
-    "0-assets/language/store",
-    "0-assets/language/store.md",
-    "0-assets/language/review.md",
-    "3-Resources/article/test3.md",
-    "3-Resources/article/230602.md",
-    "0-assets/language/word1.md",
-    "3-Resources/article/202306.1.2.md",
-    "3-Resources/article/202306.1.1.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "Untitled Kanban.md",
+    "3-Resources/重述笔记/Mybatis入门.md",
+    "3-Resources/重述笔记/Mybatis XML映射文件.md",
+    "3-Resources/重述笔记/Mybatis基本操作.md",
+    "3-Resources/重述笔记/Mybatis动态SQL.md",
+    "3-Resources/重述笔记/SQL索引和事务.md",
+    "3-Resources/重述笔记/SQL事务.md",
+    "3-Resources/重述笔记/多表操作.md",
+    "3-Resources/重述笔记/SQL.md",
+    "1-Projects/MybatisPlus.md",
+    "().md",
+    "2024年6月六级第三套原题.pdf",
+    "3-Resources/重述笔记/Class类-反射.md",
+    "3-Resources/重述笔记/接口和实现类的关系.md",
+    "3-Resources/重述笔记/分层解耦.md",
+    "smart-chats/UNTITLED CHAT 2024-07-16 08 27 31.md",
+    "3-Resources/重述笔记/SpringBoot Controller.md",
+    "1-Projects/SpringBoot.md",
+    "3-Resources/重述笔记/http.md",
+    "1-Projects/http.md",
+    "3-Resources/重述笔记/Vue.md",
+    "1-Projects/web前端.md",
+    "0-assets/memos/2024-09-04.md",
+    "3-Resources/重述笔记/10中SQL语句的用法.md",
+    "15篇过4级(英语版).pdf",
+    "3-Resources/重述笔记/MybatisPlus快速入门.md",
+    "3-Resources/重述笔记/Mybatis快速入门.md",
     "Java多线程异步开发.md",
+    "0-assets/memos/2024-09-03.md",
+    "0-assets/bookmaster/book-images/00/BAvMXOSKbrXnYZww-edacf652-f512-c06f-a0a8-6332aa021446.png",
+    "0-assets/language/store",
     "202306.pdf",
     "四级模拟卷全5套（带书签）.pdf",
     "四级长篇阅读真题+2015.06-2022.12.pdf",
-    "3-Resources/重述笔记/Basic SpringBoot configuration.md",
-    "1-Projects/SpringBoot.md",
-    "3-Resources/Anki/AVL_Anki.md",
-    "3-Resources/Anki/testAnki.md",
-    "3-Resources/Anki/哈希表Anki.md",
-    "3-Resources/Anki/堆Anki.md",
-    "3-Resources/重述笔记/Screen.md",
-    "HOME.md",
     "0-assets/bookmaster/book-annotations/00/BivBDgYtddnfazqG.xml",
     "0-assets/bookmaster/book-annotations/00/fhDDGAfnqTBGBeVp.xml",
     "0-assets/bookmaster/book-annotations/00/YSVtjVWOntTMxnGE.xml",
@@ -296,9 +292,6 @@
     "0-assets/photos/ziyunote-20240703_212023.jpg",
     "0-assets/photos/ziyunote-20240703_211905.jpg",
     "0-assets/photos/ziyunote-20240703_211635.jpg",
-    "0-assets/photos/ziyunote-20240703_211630.jpg",
-    "smart-chats",
-    "15篇过4级(英汉).pdf",
     "//Untitled.canvas",
     "Untitled.canvas"
   ]

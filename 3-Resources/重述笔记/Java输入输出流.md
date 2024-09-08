@@ -1,11 +1,11 @@
 ---
-Project: "[[Java]]"
+Project: "[[接口和实现类的关系]]"
 Status: 
 tags:
   - Resources
 Deadline: 2024-05-30
 CreateTime: 2024-05-30
-Connected:
+Connected: 
 ---
 
 # System.out.println
