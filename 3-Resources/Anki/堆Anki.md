@@ -6,9 +6,7 @@ CreateTime:
 tags:
   - Anki
 ---
-DECK: 数据结构::堆
-FILE TAGS: 堆
-
+#flashcards 
 
 # 堆的基本结构
 「堆 heap」是一种满足特定条件的完全二叉树。其中
@@ -78,7 +76,8 @@ priority_queue<int,vector<int>,greater<int>> minHeap(input.begin(),input.end());
 END
 
 
-# 堆的实现
+
+# 堆的实现 
 因为堆是一种完全二叉树，而完全二叉树非常适合用数组表示，因此采用数组来存储堆
 给定索引 𝑖 ，其左子节点索引为 2𝑖 + 1 ，右子节点索引为 2𝑖 + 2 ，父节点索引为 (𝑖 − 1)/2（向下取整）。当索引越界时，表示空节点或节点不存在。
 ![[BAvMXOSKbrXnYZww-ba9ef284-e35f-b297-7339-467ab978f17b.png|749]]

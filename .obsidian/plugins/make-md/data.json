@@ -95,6 +95,7 @@
   "searchWorker": true,
   "skipFolderNames": [],
   "skipFolders": [],
+  "enhancedLogs": false,
   "folderContextFile": "context",
   "folderFrameFile": "frames",
   "waypoints": [

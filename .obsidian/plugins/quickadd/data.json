@@ -85,7 +85,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "---\nProject: \nStatus:\ntags: Resources\nDeadline:\nCreateTime:\nConnected:\n---\n"
+        "format": "---\nProject: \nStatus:\ntags: Resources\nDeadline:\nCreateTime:\nConnected:\n---\n\n#review\n"
       },
       "insertAfter": {
         "enabled": false,
@@ -216,7 +216,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.11.0",
+  "version": "1.11.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {

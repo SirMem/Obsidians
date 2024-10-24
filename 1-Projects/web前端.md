@@ -21,6 +21,7 @@ Area:
 [[Javascript]]
 [[web前端]]
 [[Vue]]
+[[Javascript Promise]]
 # Finished Notes
 元素优先级
 em和rem

@@ -22,7 +22,7 @@ Ctrl + Alt + L 格式化IDEA代码
 [[SQL]]
 [[多表操作]]
 [[SQL事务]]
-
+[[SQL索引和事务]]
 # In progress Notes
 
 

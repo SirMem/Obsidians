@@ -233,7 +233,7 @@ Received user: User{name='John Doe', email='john.doe@example.com'}
 
 
 ## 统一相应结果
-是的，在SpringBoot项目中，通常会创建一个统一的响应结果类（如`Result`类），以标准化API接口的返回格式。通过定义`code`, `msg`, 和 `data`三个字段，可以使不同接口的返回数据保持一致。典型的`Result`类如下：
+在SpringBoot项目中，通常会创建一个统一的响应结果类（如`Result`类），以标准化API接口的返回格式。通过定义`code`, `msg`, 和 `data`三个字段，可以使不同接口的返回数据保持一致。典型的`Result`类如下：
 
 ```java
 public class Result {
@@ -308,3 +308,46 @@ public class ExampleController {
 ```
 
 这样，你的所有接口返回的结果都将是统一的格式，包括状态码、信息和数据。
+
+
+## @PathVariable
+
+`@PathVariable` 是 Spring MVC 中用来绑定 URL 路径中的变量到方法参数的注解。它的主要作用是在请求路径中提取出路径变量，作为参数传递给控制器的方法，从而实现基于路径的动态 URL 路由。
+
+### 例子
+假设有以下 URL 结构：
+```
+/user/123
+```
+其中，`123` 是用户的 ID，它可以是动态的，通过 `@PathVariable` 来捕获并传递给处理该请求的方法。
+
+```java
+@RestController
+public class UserController {
+
+    @GetMapping("/user/{id}")
+    public String getUserById(@PathVariable("id") String userId) {
+        return "User ID: " + userId;
+    }
+}
+```
+
+### 解释
+- `@GetMapping("/user/{id}")` 定义了一个包含路径变量 `id` 的 URL 路径。
+- `@PathVariable("id")` 将路径中的 `id`（如 `123`）提取出来，并传递给 `getUserById` 方法的 `userId` 参数。
+
+当客户端发送请求 `/user/123` 时，该请求会被路由到 `getUserById` 方法，`@PathVariable` 将路径中的 `123` 赋值给 `userId` 参数，最后返回结果 `"User ID: 123"`。
+
+### 典型用途
+1. **资源定位**：当需要从 URL 中提取特定资源的标识符时（如用户 ID、订单号等）。
+2. **RESTful API**：在 RESTful 风格的 API 中，路径通常表示资源，因此 `@PathVariable` 常用于动态构建 URL。
+
+### 注意事项
+- 如果 `@PathVariable` 参数名称和 URL 中的占位符名称一致，可以省略注解中的名称部分：
+  ```java
+  @GetMapping("/user/{id}")
+  public String getUserById(@PathVariable String id) {
+      return "User ID: " + id;
+  }
+  ```
+
