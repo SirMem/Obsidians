@@ -18,7 +18,8 @@
       "views": [
         {
           "config": {
-            "interval": "month"
+            "interval": "month",
+            "dateField": "CreateTime"
           },
           "filter": {
             "conditions": []

@@ -4,8 +4,8 @@ Status:
 tags:
   - Resources
 Deadline: 
-CreateTime: 
-Connected:
+CreateTime: 2024-10-25
+Connected: 
 sr-due: 2024-10-12
 sr-interval: 3
 sr-ease: 250

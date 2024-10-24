@@ -13,6 +13,11 @@
         "00": "F:\\Books"
       },
       "bookViewerWorkerPath": "http://172.19.0.1/bookviewer/"
+    },
+    "c17b72a6ab136bf7": {
+      "deviceName": "",
+      "bookVaultPaths": {},
+      "bookViewerWorkerPath": "http://81.71.65.248:8866"
     }
   },
   "dataPath": "0-assets/bookmaster",

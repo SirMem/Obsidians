@@ -85,7 +85,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "---\nProject: \nStatus:\ntags: Resources\nDeadline:\nCreateTime:\nConnected:\n---\n\n#review\n"
+        "format": "---\nProject: \nStatus:\ntags: Resources\nDeadline:\nCreateTime: {{date}}\nConnected:\n---\n\n#review\n"
       },
       "insertAfter": {
         "enabled": false,

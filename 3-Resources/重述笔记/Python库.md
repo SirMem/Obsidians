@@ -1,9 +1,10 @@
 ---
 Project: 
-Status:
-tags: Resources
-Deadline:
-CreateTime:
+Status: 
+tags:
+  - Resources
+Deadline: 
+CreateTime: 2024-10-25
 Connected:
 ---
 
