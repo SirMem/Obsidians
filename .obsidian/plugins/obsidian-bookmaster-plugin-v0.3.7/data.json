@@ -2,22 +2,20 @@
   "deviceSetting": {
     "463d1a2e61a268ff": {
       "deviceName": "Needyou",
-      "bookVaultPaths": {
-        "00": "F:\\Books"
-      },
+      "bookVaultPaths": {},
       "bookViewerWorkerPath": "http://[fe80::9328:642f:9b13:d68a]/bookviewer/"
     },
     "c878f9b8294a2186": {
       "deviceName": "Needyou",
-      "bookVaultPaths": {
-        "00": "F:\\Books"
-      },
+      "bookVaultPaths": {},
       "bookViewerWorkerPath": "http://172.19.0.1/bookviewer/"
     },
     "c17b72a6ab136bf7": {
       "deviceName": "",
-      "bookVaultPaths": {},
-      "bookViewerWorkerPath": "http://81.71.65.248:8866"
+      "bookVaultPaths": {
+        "00": "F:\\Books"
+      },
+      "bookViewerWorkerPath": "http://10.70.47.129/bookviewer/"
     }
   },
   "dataPath": "0-assets/bookmaster",

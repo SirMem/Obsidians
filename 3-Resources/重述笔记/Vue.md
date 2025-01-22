@@ -28,6 +28,7 @@ https://xiaoman.blog.csdn.net/article/details/122769982
 - HMR  速度快到惊人的 [模块热更新（HMR）](https://vitejs.cn/guide/features.html#hot-module-replacement "模块热更新（HMR）")
 - [Rollup](https://so.csdn.net/so/search?q=Rollup&spm=1001.2101.3001.7020)打包  它使用 [Rollup](https://rollupjs.org/ "Rollup") 打包你的代码，并且它是预配置的 并且支持大部分rollup插件
 
+## vue/cli
 ## Vite 目录 & npm脚本
 - public 下面的不会被编译 可以存放静态资源
 

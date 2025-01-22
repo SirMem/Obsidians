@@ -29,5 +29,8 @@
   "obsidian-kanban",
   "obsidian-image-toolkit",
   "obsidian-linter",
-  "make-md"
+  "make-md",
+  "copilot",
+  "html-to-md",
+  "obsidian-markmind"
 ]

@@ -1862,3 +1862,7 @@ button.addEventListener('click', function() {
 </html>
 
 ```
+
+
+## 解构
+通过{}对一个对象进行解构，获得一个对象的属性

@@ -10,6 +10,8 @@ Connected:
 
 #review
 
+y is the true value in the training set
+y-hat(prediction) is the rusult obtained by x through the f(x) model (based on the input feature x)
 ## Numpy
 
 
@@ -291,3 +293,124 @@ assign_sub
 - **理想模型**：模型在训练集和测试集上都能表现良好，说明模型具有较强的泛化能力。
 
 正则项，二范式
+
+
+## Cost function
+![[Pasted image 20241120102954.png]]
+
+![[Pasted image 20241120104146.png]]
+
+![[Pasted image 20241120104947.png]]When the cost is relatively small, closer to zero, it means the model fits the data better compared to other choices for w and b.
+
+![[Pasted image 20241120110530.png]]
+
+智能本质上就是针对不同情境给出针对性的输出反应
+
+模型结构哪来这种神奇黑箱？
+损失函数怎么奖励一个机器？
+训练过程机器怎么建立条件反射
+
+感知机
+多层感知机
+[00:30:03](ziyunote://play?path=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1atCRYsE7x%2F%3Fspm_id_from%3D333.1007.top_right_bar_window_default_collection.content.click%26vd_source%3D8b450300cfa6415cb0312754cf65ba30&time=00:30:03)
+[00:40:05](ziyunote://play?path=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1atCRYsE7x%2F%3Fspm_id_from%3D333.1007.top_right_bar_window_default_collection.content.click%26vd_source%3D8b450300cfa6415cb0312754cf65ba30&time=00:40:05)
+
+
+我们用两个垂直于坐标轴的截面和曲面相交,截面会切出一根曲线来,
+然后我们再求这根曲线的导数将这两个导数拼在一起,再求曲线的导数，得到梯度
+
+[00:48:30](ziyunote://play?path=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1atCRYsE7x%2F%3Fspm_id_from%3D333.1007.top_right_bar_window_default_collection.content.click%26vd_source%3D8b450300cfa6415cb0312754cf65ba30&time=00:48:30)
+泛化
+
+
+
+反向传播
+最小二乘法
+```python
+# 根据最小二乘法公式求解 w1 和 w0
+w1 = (np.sum((x - x_mean) * (y - y_mean))) / (np.sum((x - x_mean) ** 2))  
+w0 = y_mean - w1 * x_mean
+```
+梯度下降法
+```python
+# 计算预测值 
+y_pred = w1 * x + w0 
+# 计算损失函数的梯度 
+dw1 = (1 / n) * np.sum((y_pred - y) * x) 
+dw0 = (1 / n) * np.sum(y_pred - y) 
+# 更新参数 
+w1 = w1 - alpha * dw1 
+w0 = w0 - alpha * dw0
+```
+学习率
+
+逻辑回归
+![[Pasted image 20241124174605.png]]
+
+## **逻辑回归的完整工作流程**
+
+1. **输入特征**： 输入特征 x\mathbf{x}x 是一个 nnn-维向量（或矩阵）。这些特征是我们用来预测输出类别的数据。
+    
+2. **线性组合**： 使用权重 www 和偏置 bbb 对输入特征进行线性组合：
+    
+    z=w⋅x+bz = \mathbf{w} \cdot \mathbf{x} + bz=w⋅x+b
+3. **非线性变换**： 将线性组合的结果 zzz 输入到 sigmoid 函数中，计算输出概率：
+    
+    y^=σ(z)=11+e−z\hat{y} = \sigma(z) = \frac{1}{1 + e^{-z}}y^​=σ(z)=1+e−z1​
+4. **输出类别**： 根据概率 y^\hat{y}y^​，通过设置阈值（如 0.5）将结果映射到类别 0 或 1。
+
+```python
+import numpy as np
+
+# 数据
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)  # 输入特征
+y = np.array([0, 0, 0, 1, 1])  # 标签
+n = len(y)
+
+# 初始化参数
+w = 0.0  # 权重
+b = 0.0  # 偏置
+alpha = 0.1  # 学习率
+
+# Sigmoid函数
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+# 梯度下降迭代
+for epoch in range(1000):  # 迭代 1000 次
+    # 预测
+    z = np.dot(X, w) + b
+    predictions = sigmoid(z)
+    
+    # 计算梯度
+    dw = (1 / n) * np.dot(X.T, (predictions - y))  # 对 w 的梯度
+    db = (1 / n) * np.sum(predictions - y)        # 对 b 的梯度
+    
+    # 参数更新
+    w -= alpha * dw
+    b -= alpha * db
+
+    # 计算损失（交叉熵）
+    loss = -np.mean(y * np.log(predictions) + (1 - y) * np.log(1 - predictions))
+    if epoch % 100 == 0:
+        print(f"Epoch {epoch}, Loss: {loss:.4f}")
+
+print(f"最终权重: {w:.4f}, 最终偏置: {b:.4f}")
+
+```
+向量化
+KNN
+![[Pasted image 20241120115419.png]]
+![[Pasted image 20241120115950.png]]
+支持向量机
+决策树
+
+矩阵相乘相加
+
+神经网络
+卷积神经网络
+池化
+
+OpenCv
+计算机视觉开发
+自然语言处理

@@ -80,5 +80,13 @@
       ],
       "key": "T"
     }
+  ],
+  "quickadd:choice:57867015-5aaf-4903-a15f-bf5f57d1b9ff": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Numpad6"
+    }
   ]
 }

@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "83945afdd8ad1735",
+        "id": "a73e33e03d4fca91",
         "type": "tabs",
         "children": [
           {
-            "id": "5c40e18cba2fd555",
+            "id": "460566ce5d70dbd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-Resources/重述笔记/前端网络请求.md",
+                "file": "3-Resources/重述笔记/训练环境设置、编码技巧和Code Style.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "前端网络请求"
-            }
-          },
-          {
-            "id": "66007d43462cc826",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
+              "title": "训练环境设置、编码技巧和Code Style"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IOC",
+                "query": "Vue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,21 +74,31 @@
             }
           },
           {
-            "id": "721bbc91f6b79c98",
+            "id": "6f0dc2b1475298da",
+            "type": "leaf",
+            "state": {
+              "type": "bm-explorer-view",
+              "state": {},
+              "icon": "library",
+              "title": "Book Explorer"
+            }
+          },
+          {
+            "id": "02afca751f0d5566",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {},
               "icon": "layout-grid",
-              "title": "Spaces"
+              "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 372.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "afe68af1243a1c11",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/重述笔记/分层解耦.md",
+                "file": "copilot-conversations/hello@20250101_162835.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "分层解耦 的反向链接列表"
+              "title": "hello@20250101_162835 的反向链接列表"
             }
           },
           {
@@ -134,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Projects/计算机网络.md",
+                "file": "3-Resources/重述笔记/质点运动学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "计算机网络 的出链列表"
+              "title": "质点运动学 的出链列表"
             }
           },
           {
@@ -161,20 +160,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Projects/JS核心语法.md"
+                "file": "3-Resources/重述笔记/随机变量的数字特征.md"
               },
               "icon": "lucide-list",
-              "title": "JS核心语法 的大纲"
-            }
-          },
-          {
-            "id": "01db5d4787f36efa",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "title": "随机变量的数字特征 的大纲"
             }
           },
           {
@@ -198,7 +187,17 @@
             }
           },
           {
-            "id": "32f5b57fc0382aa0",
+            "id": "9532f244a24dda79",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "971fb723fae4ef08",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -208,24 +207,25 @@
             }
           },
           {
-            "id": "9532f244a24dda79",
+            "id": "fdaabe1eb6b952b3",
             "type": "leaf",
             "state": {
-              "type": "review-queue-list-view",
+              "type": "copilot-chat-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 449.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-bookmaster-plugin:Book Explorer": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -233,7 +233,6 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-bookmaster-plugin:Book Explorer": false,
       "chronology:Open Chronology": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-memos:Thino": false,
@@ -244,57 +243,58 @@
       "media-extended:Open media": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-kanban:创建新看板": false
+      "obsidian-kanban:创建新看板": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "69b2f497aa7a2a2e",
   "lastOpenFiles": [
-    "3-Resources/重述笔记/前端网络请求.md",
-    "3-Resources/excalidraw/归并排序Excalidraw.md",
-    "3-Resources/excalidraw/个人学习.md",
-    "3-Resources/excalidraw/车票计算.md",
-    "3-Resources/excalidraw/单词音节.md",
-    "3-Resources/excalidraw/服务器.md",
-    "3-Resources/excalidraw/QT父子关系.md",
-    "3-Resources/excalidraw/重积分.md",
-    "3-Resources/重述笔记/Python库.md",
-    "3-Resources/重述笔记/优势.md",
-    "3-Resources/重述笔记/质点动力学.md",
-    "Omnivore/2024-04-07/8086数据寻址方式 - 知乎.md",
-    "Omnivore/2024-04-07/8086中的七种寻址方式 - Faron - 博客园.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.md",
-    "4-Archives/Stopping/STL.md",
-    "Omnivore/2024-04-05/汇编语言 - 维基百科，自由的百科全书.md",
-    "smart-chats/UNTITLED CHAT 2024-07-16 08 06 30.md",
-    "Omnivore/2024-04-08/高等数学——详解洛必达法则 - 知乎.md",
-    "smart-chats/UNTITLED CHAT 2024-07-16 08 13 53.md",
-    "3-Resources/重述笔记/Vue.md",
-    "3-Resources/重述笔记/你好.md",
-    "0-assets/memos/2024-09-26.md",
-    "3-Resources/excalidraw/哈希表Excalidraw.md",
-    "1-Projects/Linux.md",
-    "1-Projects/web前端.md",
-    "1-Projects/JS核心语法.md",
-    "0-assets/photos/Pasted image 20241016094618.png",
-    "0-assets/photos/Pasted image 20241016094405.png",
-    "0-assets/photos/Pasted image 20241016094227.png",
-    "0-assets/photos/Pasted image 20241016094108.png",
-    "0-assets/photos/Pasted image 20241016094003.png",
-    "0-assets/photos/Pasted image 20241016093754.png",
-    "0-assets/photos/Pasted image 20241016093613.png",
-    "0-assets/photos/Pasted image 20241016093323.png",
-    "0-assets/photos/Pasted image 20241016093139.png",
-    "0-assets/photos/Pasted image 20241016092451.png",
-    "15篇过4级(英汉).pdf",
-    "2024年6月六级第三套原题.pdf",
-    "15篇过4级(英语版).pdf",
-    "0-assets/language/store",
-    "202306.pdf",
-    "四级模拟卷全5套（带书签）.pdf",
-    "四级长篇阅读真题+2015.06-2022.12.pdf",
-    "0-assets/bookmaster/book-annotations/00/BivBDgYtddnfazqG.xml",
-    "0-assets/bookmaster/book-annotations/00/fhDDGAfnqTBGBeVp.xml",
-    "0-assets/bookmaster/book-annotations/00/YSVtjVWOntTMxnGE.xml",
+    "3-Resources/重述笔记/训练环境设置、编码技巧和Code Style.md",
+    "3-Resources/重述笔记/数据结构与算法总览.md",
+    "1-Projects/算法训练营.md",
+    "3-Resources/mindmap/数据结构和算法总览脑图.md",
+    "3-Resources/mindmap/3.md",
+    "3-Resources/mindmap/2.md",
+    "3-Resources/mindmap/1.md",
+    "3-Resources/mindmap",
+    "未命名思维导图.md",
+    "4-Archives/nodes/第一章：开篇.md",
+    "4-Archives/nodes/第八章：权限控制解决方案之分级分控权限管理.assets/image-20210930154951194.png",
+    "4-Archives/nodes/第八章：权限控制解决方案之分级分控权限管理.md",
+    "4-Archives/nodes/第十章：富文本与markdown综合处理之创建文章.md",
+    "4-Archives/nodes/第十一章：项目部署之通用方案.md",
+    "4-Archives/nodes/第十二章：课程总结.md",
+    "4-Archives/nodes/第九章：动态表格渲染方案之文章排名业务实现.md",
+    "4-Archives/nodes/第七章：权限架构处理之用户权限处理.md",
+    "4-Archives/nodes/第六章：vue3+ElementPlus综合实现解决方案.md",
+    "4-Archives/nodes/第五章：后台项目前端综合解决方案之通用功能开发.md",
+    "4-Archives/nodes/第四章：项目架构之搭建Layout架构 解决方案与实现.md",
+    "4-Archives/nodes/第三章：项目架构之搭建登录架 构解决方案与实现.md",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .md",
+    "4-Archives/nodes/图文课程/3-06：导入 element-plus.md",
+    "4-Archives/nodes/图文课程/2-02：使用 vue-cli 创建项目.md",
+    "4-Archives/nodes/图文课程/3-03：初始化项目结构.md",
+    "图文课程/2-03：升级最新的 vue 版本以支持 script setup 语法 .md",
+    "图文课程",
+    "4-Archives/nodes/图文课程/2-03：升级最新的 vue 版本以支持 script setup 语法.md",
+    "4-Archives/nodes/图文课程/2-13：关于vetur检测 template的单一根元素的问题.md",
+    "4-Archives/nodes/图文课程/3-06：导入 element-plus.assets/image-20210908111515578.png",
+    "4-Archives/nodes/第三章：项目架构之搭建登录架 构解决方案与实现.assets/image-20210907203504116.png",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .assets/image-20210717184402089.png",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .assets/image-20210710121456416.png",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .assets/image-20210710120053221.png",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .assets/image-20210710120228931.png",
+    "4-Archives/nodes/图文课程/2-13：关于vetur检测 template的单一根元素的问题.assets/image-20210717190311264.png",
+    "4-Archives/nodes/第十章：富文本与markdown综合处理之创建文章.assets/image-20211006194630048.png",
+    "4-Archives/nodes/第十章：富文本与markdown综合处理之创建文章.assets/image-20211006194612197.png",
+    "4-Archives/nodes/第十章：富文本与markdown综合处理之创建文章.assets",
+    "4-Archives/nodes/第十一章：项目部署之通用方案.assets",
+    "4-Archives/nodes/第八章：权限控制解决方案之分级分控权限管理.assets",
+    "4-Archives/nodes/第五章：后台项目前端综合解决方案之通用功能开发.assets",
+    "4-Archives/nodes/第一章：开篇.assets",
+    "4-Archives/nodes/第四章：项目架构之搭建Layout架构 解决方案与实现.assets",
+    "4-Archives/nodes/第二章：标准化大厂编程规范解决方案之ESLint + Git Hooks .assets",
+    "4-Archives/nodes/第三章：项目架构之搭建登录架 构解决方案与实现.assets",
     "//Untitled.canvas",
     "Untitled.canvas"
   ]

@@ -209,9 +209,105 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "f4b67d26-dd0b-4e82-bccc-83da930d4409",
+      "name": "markmind-micro",
+      "type": "Macro",
+      "command": false,
+      "macroId": "c14c9dd9-1d7e-49cb-94cb-2a4155388368"
+    },
+    {
+      "id": "57867015-5aaf-4903-a15f-bf5f57d1b9ff",
+      "name": "markmind",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "3-Resources/mindmap/{{value:MindMapName}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\n\nmindmap-plugin: basic\n\n---\n\n# 主节点\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "markmind-micro",
+      "id": "c14c9dd9-1d7e-49cb-94cb-2a4155388368",
+      "commands": [
+        {
+          "name": "markmind",
+          "type": "NestedChoice",
+          "id": "11b85821-2114-4771-aa60-5d4cb2f552cb",
+          "choice": {
+            "id": "16683d12-5714-47bc-927a-68e616d21a29",
+            "name": "markmind",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "3-Resources/mindmap/{{value:MindMapName}}.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "---\n\nmindmap-plugin: basic\n\n---\n\n# 主节点\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "horizontal",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8ee696f2-0dbd-48a0-950b-e77c66a4c284",
+          "time": 300
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

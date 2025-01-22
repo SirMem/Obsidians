@@ -1,0 +1,9 @@
+{
+    "id": "html-to-md",
+    "name": "HTML to Markdown",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "将HTML图片标签转换为Markdown格式",
+    "author": "Your Name",
+    "isDesktopOnly": false
+} 
