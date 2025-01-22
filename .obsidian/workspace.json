@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5110321044922,
-    "collapsed": true
+    "width": 372.5110321044922
   },
   "right": {
     "id": "afe68af1243a1c11",
@@ -217,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -247,7 +246,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "69b2f497aa7a2a2e",
+  "active": "460566ce5d70dbd3",
   "lastOpenFiles": [
     "3-Resources/重述笔记/训练环境设置、编码技巧和Code Style.md",
     "3-Resources/重述笔记/数据结构与算法总览.md",
